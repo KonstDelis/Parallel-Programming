@@ -17,7 +17,7 @@ graph_t* init_graph(long int size){
         fprintf(stderr, "Error: memory allocation for graph failed\n");
         return NULL;
     }
-    graph->nodes = (struct g_node*)malloc(sizeof(struct g_node)*(size));
+    graph->nodes = (struct g_node*)malloc(sizeof(struct g_node)*size);
     if(graph->nodes==NULL){
         fprintf(stderr, "Error: memory allocation for graph nodes failed\n");
         free(graph);
@@ -28,10 +28,10 @@ graph_t* init_graph(long int size){
         graph->nodes[i].value=1.0;
         graph->nodes[i].neighbors_no=0;
         graph->nodes[i].active=FALSE;
-        graph->nodes[i].capacity=50;
-        graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*50);
+        graph->nodes[i].capacity=100;
+        graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*100);
         if(graph->nodes[i].neighbors==NULL){
-            fprintf(stderr, "Error: memory allocation for neighbor array of node %d failed\n",i);
+            fprintf(stderr, "Error: memory allocation for neighbor array of node %ld failed\n",i);
             free(graph->nodes);
             free(graph);
             return NULL;
@@ -56,13 +56,12 @@ int expand_graph(graph_t* graph, long int extra_size){
         graph->nodes[i].value=1.0;
         graph->nodes[i].neighbors_no=0;
         graph->nodes[i].active=FALSE;
-        graph->nodes[i].capacity=50;
-        graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*50);
+        graph->nodes[i].capacity=100;
+        graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*100);
         if(graph->nodes[i].neighbors==NULL){
-            fprintf(stderr, "Error: memory allocation for neighbor array of node %d failed\n",i);
+            fprintf(stderr, "Error: memory allocation for neighbor array of node %ld failed\n",i);
             return -2;
         }
-        //printf("node id=%ld has neighbors_no=%ld\n", i, graph->nodes[i].neighbors_no);
     }
     return 0;
 }
@@ -85,17 +84,16 @@ int add_neighbor(graph_t* graph, long int id, long int neighbor_id){
         if(expand_graph(graph, graph->size)!=0)
             return 2;
     }
-    if(neighbor_exists(graph,id, neighbor_id)) return 1;
+    //if(neighbor_exists(graph,id, neighbor_id)) return 1;
 
     if(graph->nodes[id].neighbors_no+1>=graph->nodes[id].capacity){
-        graph->nodes[id].neighbors = realloc(graph->nodes[id].neighbors, graph->nodes[id].capacity*2);
+        graph->nodes[id].neighbors = realloc(graph->nodes[id].neighbors, graph->nodes[id].capacity*2*sizeof(long int));
         if(graph->nodes[id].neighbors==NULL){
-            fprintf(stderr, "Error: memory reallocation for neighbor array of node %d failed\n",id);
+            fprintf(stderr, "Error: memory reallocation for neighbor array of node %ld failed\n",id);
             return 2;
         }
         graph->nodes[id].capacity*=2;
     }
-    printf("Adding neighbor %ld to id %ld, node has neighbors_no %ld\n", neighbor_id, id, graph->nodes[id].neighbors_no);
     graph->nodes[id].neighbors[graph->nodes[id].neighbors_no++]=neighbor_id;
     graph->nodes[id].active=TRUE;
     graph->nodes[neighbor_id].active=TRUE;

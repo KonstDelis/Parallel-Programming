@@ -26,13 +26,13 @@ void fill_graph(graph_t *graph, FILE *file){
 }
 
 int main(){
-    FILE *f = fopen("datasets/Email-Enron.txt", "r");
+    FILE *f = fopen("datasets/facebook_combined.txt", "r");
     FILE *fout = fopen("out.txt", "w");
     if (f == NULL){
         fprintf(stderr,"Error: Cannot open file\n");
         return -1;
     }
-    graph_t* g = init_graph(100);
+    graph_t* g = init_graph(1000);
     fill_graph(g, f);
     print_graph(g, fout);
     // printf("Graph size = %d, max_node = %d\n", g->size, g->max_node);
