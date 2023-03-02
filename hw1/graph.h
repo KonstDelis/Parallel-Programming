@@ -7,11 +7,11 @@ struct g_node{
     long int capacity;
     long int neighbors_no;
     long int* neighbors;
+    int active;
 };
 
 typedef struct graph{
     long int size;
-    long int max_node;
     struct g_node* nodes;
 } graph_t;
 
@@ -29,6 +29,9 @@ int add_neighbor(graph_t* graph, long int id, long int neighbor_id);
 
 /*Checks if 'neighbor_id' already exists in node with 'id'*/
 int neighbor_exists(graph_t* graph, long int id, long int neighbor_id);
+
+/*Prints the entire graph in a file*/
+void print_graph(graph_t* graph, FILE* stream);
 
 /*Calculates the new page rank and saves it in the value of the node with id*/
 void rank(graph_t* graph, long int id);

@@ -18,18 +18,23 @@ void fill_graph(graph_t *graph, FILE *file){
             fprintf(stderr, "Error: unexpected input, fscanf failed\n");
             return ;
         }
-        printf("edge from %ld to %ld\n", num1, num2);
+        int rt = add_neighbor(graph, num2, num1);
+        if(rt==1){
+            printf("neighbor %ld for node %ld already exists\n", num1, num2);
+        }
     }
 }
 
 int main(){
     FILE *f = fopen("datasets/Email-Enron.txt", "r");
+    FILE *fout = fopen("out.txt", "w");
     if (f == NULL){
         fprintf(stderr,"Error: Cannot open file\n");
         return -1;
     }
-    graph_t* g = init_graph(10);
+    graph_t* g = init_graph(100);
     fill_graph(g, f);
+    print_graph(g, fout);
     // printf("Graph size = %d, max_node = %d\n", g->size, g->max_node);
 
     // for (int i =0; i < g->size; i++){
