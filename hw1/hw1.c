@@ -26,7 +26,7 @@ void fill_graph(graph_t *graph, FILE *file){
 }
 
 int main(){
-    FILE *f = fopen("datasets/facebook_combined.txt", "r");
+    FILE *f = fopen("datasets/Email-Enron.txt", "r");
     FILE *fout = fopen("out.txt", "w");
     if (f == NULL){
         fprintf(stderr,"Error: Cannot open file\n");
@@ -35,11 +35,6 @@ int main(){
     graph_t* g = init_graph(1000);
     fill_graph(g, f);
     print_graph(g, fout);
-    // printf("Graph size = %d, max_node = %d\n", g->size, g->max_node);
-
-    // for (int i =0; i < g->size; i++){
-    //     printf("Id = %d || Value = %d || neighbor_no = %d || capacity = %d\n",i,g->nodes[i].value,g->nodes[i].neighbors_no ,g->nodes[i].capacity);
-    // }
     free_graph(g);
     return 0;
 }

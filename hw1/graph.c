@@ -51,7 +51,7 @@ int expand_graph(graph_t* graph, long int extra_size){
     }
     /*Change size var and initialize the new nodes*/
     graph->size=prv_size+extra_size;
-    printf("Initing from %ld to %ld\n",prv_size, graph->size);
+
     for(long int i=prv_size; i<graph->size; i++){
         graph->nodes[i].value=1.0;
         graph->nodes[i].neighbors_no=0;
