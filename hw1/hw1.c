@@ -26,14 +26,17 @@ void fill_graph(graph_t *graph, FILE *file){
 }
 
 int main(){
-    FILE *f = fopen("datasets/Email-Enron.txt", "r");
+    FILE *f = fopen("datasets/mytest.txt", "r");
     FILE *fout = fopen("out.txt", "w");
     if (f == NULL){
         fprintf(stderr,"Error: Cannot open file\n");
         return -1;
     }
-    graph_t* g = init_graph(1000);
+    graph_t* g = init_graph(50);
     fill_graph(g, f);
+    for(long int i=0; i<g->size; i++){
+        rank(g,i);
+    }
     print_graph(g, fout);
     free_graph(g);
     return 0;

@@ -6,6 +6,7 @@ struct g_node{
     float value;
     long int capacity;
     long int neighbors_no;
+    long int outgoing_edges;
     long int* neighbors;
     int active;
 };
