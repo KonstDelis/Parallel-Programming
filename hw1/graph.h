@@ -13,6 +13,7 @@ struct g_node{
 
 typedef struct graph{
     long int size;
+    long int max_used_node;
     struct g_node* nodes;
 } graph_t;
 

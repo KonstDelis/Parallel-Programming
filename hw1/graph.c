@@ -24,6 +24,7 @@ graph_t* init_graph(long int size){
         return NULL;
     }
     graph->size=size;
+    graph->max_used_node=-1;
     for(long int i=0; i<graph->size; i++){
         graph->nodes[i].value=1.0;
         graph->nodes[i].neighbors_no=0;
@@ -81,13 +82,13 @@ void free_graph(graph_t* graph){
 
 /*Adds in node with 'id' a neighbor with neighbor_id*/
 int add_neighbor(graph_t* graph, long int id, long int neighbor_id){
-    if(neighbor_exists(graph,id, neighbor_id)) return 1; /*Check if neighbor already exists*/
-
     /*Check if we have enough nodes*/
     while(neighbor_id>=graph->size || id>=graph->size){
         if(expand_graph(graph, graph->size)!=0)
             return 2;
     }
+
+    if(neighbor_exists(graph,id, neighbor_id)) return 1; /*Check if neighbor already exists*/
 
     if(graph->nodes[id].neighbors_no+1>=graph->nodes[id].capacity){
         graph->nodes[id].neighbors = realloc(graph->nodes[id].neighbors, graph->nodes[id].capacity*2*sizeof(long int));
@@ -101,6 +102,8 @@ int add_neighbor(graph_t* graph, long int id, long int neighbor_id){
     graph->nodes[id].active=TRUE;
     graph->nodes[neighbor_id].active=TRUE;
     graph->nodes[neighbor_id].outgoing_edges+=1;
+    if(id>graph->max_used_node || neighbor_id>graph->max_used_node)
+        graph->max_used_node = id>neighbor_id ? id : neighbor_id;
 }
 
 /*Checks if 'neighbor_id' already exists in node with 'id'*/
@@ -113,15 +116,15 @@ int neighbor_exists(graph_t* graph, long int id, long int neighbor_id){
 }
 
 void print_graph(graph_t* graph, FILE* stream){
+    fprintf(stream, "Graph: size=%ld, max_used_node=%ld\n", graph->size, graph->max_used_node);
     for(long int i=0; i<graph->size; i++){
         if(!graph->nodes[i].active) continue;
-        fprintf(stream, "id: %10ld || value: %1.3f || number of neighbors: %10ld || outgoing_edges: %10ld || neighbors: ",i, graph->nodes[i].value, graph->nodes[i].neighbors_no, graph->nodes[i].outgoing_edges);
+        fprintf(stream, "id: %10ld || value: %8.3f || number of neighbors: %10ld || outgoing_edges: %10ld || neighbors: ",i, graph->nodes[i].value, graph->nodes[i].neighbors_no, graph->nodes[i].outgoing_edges);
         for(long int j=0; j<graph->nodes[i].neighbors_no; j++){
             fprintf(stream,"%ld ", graph->nodes[i].neighbors[j]);
         }
         fprintf(stream,"\n");
     }
-    fprintf(stream, "Graph: size=%ld\n", graph->size);
 }
 
 /*Calculates the new page rank and saves it in the value of the node with id*/
