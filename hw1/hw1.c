@@ -94,7 +94,7 @@ int main(int argc, char* argv[]){
         return -1;
     }
     /*Fill graph from input file*/
-    g = init_graph(50000);
+    g = init_graph(5000);
     fill_graph(g, fin);
 
     pthread_mutex_init(&print_lock,NULL);
