@@ -1,7 +1,8 @@
 CC = gcc
+CFLAGS = -pthread
 
 all: hw1.c graph.c
-	$(CC) $^ -o hw1
+	$(CC) $^ $(CFLAGS) -o hw1
 
 cleantxt: 
 	rm -rf graph_representation.txt
