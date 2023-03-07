@@ -59,6 +59,10 @@ void *parallel_page_rank(void* args){
     long int end = a->end;
     for(int i=0; i<ITERATIONS; i++){
         for(int j=start; j<=end; j++){
+            calculate_incoming(g,j);
+        }
+        pthread_barrier_wait(&barrier);
+        for(int j=start; j<=end; j++){
             rank(g,j);
         }
         pthread_barrier_wait(&barrier);

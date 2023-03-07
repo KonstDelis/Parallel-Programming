@@ -4,6 +4,7 @@
 /*Note: We consider the neighbors of the node all the nodes that have edges pointed towards the said node*/
 struct g_node{
     float value;
+    float pending_incoming;
     long int capacity;
     long int neighbors_no;
     long int outgoing_edges;
@@ -37,4 +38,7 @@ void print_graph(graph_t* graph, FILE* stream);
 
 /*Calculates the new page rank and saves it in the value of the node with id*/
 void rank(graph_t* graph, long int id);
+
+/*Calculate the incoming value of the node for the specific iteration*/
+void calculate_incoming(graph_t* graph, long int id);
 #endif

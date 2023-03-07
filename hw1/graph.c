@@ -31,6 +31,7 @@ graph_t* init_graph(long int size){
         graph->nodes[i].outgoing_edges=0;
         graph->nodes[i].active=FALSE;
         graph->nodes[i].capacity=100;
+        graph->nodes[i].pending_incoming=0.0;
         graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*100);
         if(graph->nodes[i].neighbors==NULL){
             fprintf(stderr, "Error: memory allocation for neighbor array of node %ld failed\n",i);
@@ -60,6 +61,7 @@ int expand_graph(graph_t* graph, long int extra_size){
         graph->nodes[i].outgoing_edges=0;
         graph->nodes[i].active=FALSE;
         graph->nodes[i].capacity=100;
+        graph->nodes[i].pending_incoming=0.0;
         graph->nodes[i].neighbors = (long int*)malloc(sizeof(long int)*100);
         if(graph->nodes[i].neighbors==NULL){
             fprintf(stderr, "Error: memory allocation for neighbor array of node %ld failed\n",i);
@@ -129,14 +131,19 @@ void print_graph(graph_t* graph, FILE* stream){
 
 /*Calculates the new page rank and saves it in the value of the node with id*/
 void rank(graph_t* graph, long int id){
-    float sum=0.0;
+    graph->nodes[id].value = 0.15 + (graph->nodes[id].pending_incoming*0.85);
+    graph->nodes[id].pending_incoming=0.0;
+}
+
+/*Calculate the incoming value of the node for the specific iteration*/
+void calculate_incoming(graph_t* graph, long int id){
+    float sum = 0.0;
     long int outgoing_edges, neighbor_id;
-    if(!graph->nodes[id].active) return;
     for(long int i=0; i<graph->nodes[id].neighbors_no; i++){
         neighbor_id=graph->nodes[id].neighbors[i];
         outgoing_edges=graph->nodes[neighbor_id].outgoing_edges;
         if(outgoing_edges==0) outgoing_edges++;
         sum += (graph->nodes[neighbor_id].value /  (float)outgoing_edges);
     }
-    graph->nodes[id].value = 0.15 + (sum*0.85);
+    graph->nodes[id].pending_incoming = sum;
 }
