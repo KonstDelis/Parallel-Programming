@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <pthread.h>
+#include <time.h>
 #include "graph.h"
 
 #define ITERATIONS 50
@@ -38,10 +39,7 @@ void fill_graph(graph_t *graph, FILE *file){
             fprintf(stderr, "Error: unexpected input, fscanf failed\n");
             return ;
         }
-        int rt = add_neighbor(graph, num2, num1);
-        if(rt==1){
-            printf("neighbor %ld for node %ld already exists\n", num1, num2);
-        }
+        add_neighbor(graph, num2, num1);
     }
 }
 
