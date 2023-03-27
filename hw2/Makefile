@@ -1,16 +1,16 @@
 CC = gcc
 CFLAGS = 
 
-all: hw2.out
+all: hw2.out hw2faster.out hw2animated.out
 
-run: hw2.out
-	clear
-	./hw2.out -in tests/test2.txt
+hw2faster.out: hw2faster.c
+	$(CC) $^ -fopenmp -o $@
 
 hw2.out: hw2.c
-	$(CC) $^ -o $@
+	$(CC) $^ -fopenmp -o $@
+
+hw2animated.out: hw2animated.c
+	$(CC) $^ -fopenmp -o $@
 	
 clean:
 	rm -rf *.exe *.o *.out
-
-cleanall: cleantxt clean

@@ -14,6 +14,9 @@
 #define RESET   "\033[0m"
 #define RED     "\033[31m"
 #define GREEN   "\033[32m"
+#define YEL   "\x1B[33m"
+#define MAG   "\x1B[35m"
+#define CYN   "\x1B[36m"
 
 typedef struct cell{
     char current;
@@ -30,6 +33,18 @@ void green(){
 
 void red(){
     printf(RED);
+}
+
+void yellow(){
+    printf(YEL);
+}
+
+void magenta(){
+    printf(MAG);
+}
+
+void cyan(){
+    printf(CYN);
 }
 
 void reset(){
@@ -77,7 +92,17 @@ void print_table_colored(){
     for(int i=0; i<rows; i++){
         printf("|");
         for(int j=0; j<columns; j++){
-            green();
+            int c = rand()%5;
+            if(c==0)
+                red();
+            else if(c==1)
+                yellow();
+            else if(c==2)
+                green();
+            else if(c==3)
+                cyan();
+            else
+                magenta();
             printf("%c",table[i][j].current);
             reset();
             printf("|");
@@ -103,8 +128,9 @@ void run_years_animated(){
             }
         }
         
+        system("clear");
         print_table_colored();
-        usleep(10000);
+        usleep(100000);
     }
 }
 
@@ -173,7 +199,7 @@ int main(int argc, char* argv[]){
         fprintf(stderr, "Error: invalid parameters. Run program as: ./executable -in input_file.txt -out output_file.txt. If you skip output file parameters stdout will be used\n");
         exit(1);
     }
-    
+    srand(100);
     /*open files*/
     FILE *fin = fopen(argv[1], "r");
     FILE* fout = stdout;
@@ -195,9 +221,7 @@ int main(int argc, char* argv[]){
 
     read_input(fin);
 
-    run_years();
-
-    print_table(fout);
+    run_years_animated();
     
     for(int i=0; i<rows; i++){
         free(table[i]);
