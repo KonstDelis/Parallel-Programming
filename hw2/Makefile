@@ -1,16 +1,19 @@
 CC = gcc
 CFLAGS = 
 
-all: hw2.out hw2faster.out hw2animated.out
+all: hw2parallel.out hw2serial.out hw2arrayOfStructs.out hw2animated.out
 
-hw2faster.out: hw2faster.c
+hw2arrayOfStructs.out: hw2arrayOfStructs.c
 	$(CC) $^ -fopenmp -o $@
 
-hw2.out: hw2.c
+hw2parallel.out: hw2.c
 	$(CC) $^ -fopenmp -o $@
+
+hw2serial.out: hw2.c
+	$(CC) $^ -o $@
 
 hw2animated.out: hw2animated.c
-	$(CC) $^ -fopenmp -o $@
+	$(CC) $^ -o $@
 	
 clean:
 	rm -rf *.exe *.o *.out

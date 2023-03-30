@@ -1,0 +1,384 @@
+
+
+###########################################Serial 100 tests/glid1.txt###########################################
+
+
+Measurement 1
+2.05user 0.00system 0:02.06elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+3912outputs (0major+567minor)pagefaults 0swaps
+
+Measurement 2
+2.05user 0.00system 0:02.06elapsed 100%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+3912outputs (0major+568minor)pagefaults 0swaps
+
+Measurement 3
+2.03user 0.00system 0:02.04elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+3912outputs (0major+569minor)pagefaults 0swaps
+
+Measurement 4
+2.05user 0.00system 0:02.06elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+3912outputs (0major+567minor)pagefaults 0swaps
+
+Measurement 5
+1.99user 0.01system 0:02.00elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+3912outputs (0major+568minor)pagefaults 0swaps
+
+
+###########################################Threads:1 100 tests/glid1.txt###########################################
+
+
+Measurement 1
+2.01user 0.01system 0:02.03elapsed 99%CPU (0avgtext+0avgdata 3884maxresident)k
+0inputs+3912outputs (0major+579minor)pagefaults 0swaps
+
+Measurement 2
+2.02user 0.00system 0:02.03elapsed 99%CPU (0avgtext+0avgdata 3880maxresident)k
+0inputs+3912outputs (0major+578minor)pagefaults 0swaps
+
+Measurement 3
+2.05user 0.03system 0:02.08elapsed 99%CPU (0avgtext+0avgdata 3868maxresident)k
+0inputs+3912outputs (0major+577minor)pagefaults 0swaps
+
+Measurement 4
+2.02user 0.01system 0:02.04elapsed 99%CPU (0avgtext+0avgdata 3880maxresident)k
+0inputs+3912outputs (0major+578minor)pagefaults 0swaps
+
+Measurement 5
+2.04user 0.00system 0:02.05elapsed 99%CPU (0avgtext+0avgdata 3884maxresident)k
+0inputs+3912outputs (0major+579minor)pagefaults 0swaps
+
+
+###########################################Threads:2 100 tests/glid1.txt###########################################
+
+
+Measurement 1
+2.07user 0.00system 0:01.10elapsed 188%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 2
+2.05user 0.00system 0:01.09elapsed 188%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+581minor)pagefaults 0swaps
+
+Measurement 3
+2.07user 0.01system 0:01.10elapsed 187%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 4
+2.05user 0.00system 0:01.10elapsed 187%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 5
+2.04user 0.01system 0:01.09elapsed 188%CPU (0avgtext+0avgdata 3888maxresident)k
+0inputs+3912outputs (0major+579minor)pagefaults 0swaps
+
+
+###########################################Threads:4 100 tests/glid1.txt###########################################
+
+
+Measurement 1
+2.22user 0.01system 0:00.66elapsed 336%CPU (0avgtext+0avgdata 3912maxresident)k
+0inputs+3912outputs (0major+585minor)pagefaults 0swaps
+
+Measurement 2
+2.21user 0.02system 0:00.66elapsed 337%CPU (0avgtext+0avgdata 3912maxresident)k
+0inputs+3912outputs (0major+585minor)pagefaults 0swaps
+
+Measurement 3
+2.28user 0.08system 0:00.72elapsed 329%CPU (0avgtext+0avgdata 3912maxresident)k
+0inputs+3912outputs (0major+586minor)pagefaults 0swaps
+
+Measurement 4
+2.28user 0.00system 0:00.69elapsed 330%CPU (0avgtext+0avgdata 3912maxresident)k
+0inputs+3912outputs (0major+587minor)pagefaults 0swaps
+
+Measurement 5
+2.21user 0.01system 0:00.66elapsed 337%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+583minor)pagefaults 0swaps
+
+
+###########################################Serial 1000 tests/glid1.txt###########################################
+
+
+Measurement 1
+18.96user 0.00system 0:18.96elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+3912outputs (0major+566minor)pagefaults 0swaps
+
+Measurement 2
+18.94user 0.00system 0:18.94elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+3912outputs (0major+567minor)pagefaults 0swaps
+
+Measurement 3
+18.88user 0.02system 0:18.91elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+3912outputs (0major+566minor)pagefaults 0swaps
+
+Measurement 4
+18.90user 0.02system 0:18.93elapsed 99%CPU (0avgtext+0avgdata 3208maxresident)k
+0inputs+3912outputs (0major+568minor)pagefaults 0swaps
+
+Measurement 5
+18.86user 0.00system 0:18.86elapsed 99%CPU (0avgtext+0avgdata 3204maxresident)k
+0inputs+3912outputs (0major+568minor)pagefaults 0swaps
+
+
+###########################################Threads:1 1000 tests/glid1.txt###########################################
+
+
+Measurement 1
+19.22user 0.03system 0:19.26elapsed 99%CPU (0avgtext+0avgdata 3880maxresident)k
+0inputs+3912outputs (0major+577minor)pagefaults 0swaps
+
+Measurement 2
+19.04user 0.01system 0:19.05elapsed 99%CPU (0avgtext+0avgdata 3872maxresident)k
+0inputs+3912outputs (0major+576minor)pagefaults 0swaps
+
+Measurement 3
+19.09user 0.03system 0:19.14elapsed 99%CPU (0avgtext+0avgdata 3876maxresident)k
+0inputs+3912outputs (0major+577minor)pagefaults 0swaps
+
+Measurement 4
+19.10user 0.02system 0:19.13elapsed 99%CPU (0avgtext+0avgdata 3876maxresident)k
+0inputs+3912outputs (0major+577minor)pagefaults 0swaps
+
+Measurement 5
+18.90user 0.03system 0:18.93elapsed 99%CPU (0avgtext+0avgdata 3880maxresident)k
+0inputs+3912outputs (0major+578minor)pagefaults 0swaps
+
+
+###########################################Threads:2 1000 tests/glid1.txt###########################################
+
+
+Measurement 1
+19.09user 0.00system 0:09.61elapsed 198%CPU (0avgtext+0avgdata 3892maxresident)k
+0inputs+3912outputs (0major+581minor)pagefaults 0swaps
+
+Measurement 2
+19.67user 0.06system 0:09.99elapsed 197%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 3
+19.83user 0.02system 0:09.99elapsed 198%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 4
+19.03user 0.05system 0:09.60elapsed 198%CPU (0avgtext+0avgdata 3896maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+Measurement 5
+19.05user 0.03system 0:09.61elapsed 198%CPU (0avgtext+0avgdata 3892maxresident)k
+0inputs+3912outputs (0major+582minor)pagefaults 0swaps
+
+
+###########################################Threads:4 1000 tests/glid1.txt###########################################
+
+
+Measurement 1
+19.61user 0.08system 0:05.05elapsed 390%CPU (0avgtext+0avgdata 3908maxresident)k
+0inputs+3912outputs (0major+585minor)pagefaults 0swaps
+
+Measurement 2
+19.64user 0.05system 0:05.04elapsed 390%CPU (0avgtext+0avgdata 3912maxresident)k
+0inputs+3912outputs (0major+585minor)pagefaults 0swaps
+
+Measurement 3
+19.48user 0.06system 0:05.01elapsed 389%CPU (0avgtext+0avgdata 3908maxresident)k
+0inputs+3912outputs (0major+584minor)pagefaults 0swaps
+
+Measurement 4
+19.61user 0.21system 0:05.16elapsed 384%CPU (0avgtext+0avgdata 3908maxresident)k
+0inputs+3912outputs (0major+585minor)pagefaults 0swaps
+
+Measurement 5
+19.34user 0.23system 0:05.03elapsed 389%CPU (0avgtext+0avgdata 3908maxresident)k
+0inputs+3912outputs (0major+584minor)pagefaults 0swaps
+
+
+###########################################Serial 100 tests/glid2.txt###########################################
+
+
+Measurement 1
+196.75user 1.16system 3:18.00elapsed 99%CPU (0avgtext+0avgdata 196984maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 2
+193.24user 4.40system 3:17.75elapsed 99%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49017minor)pagefaults 0swaps
+
+Measurement 3
+193.63user 4.03system 3:17.79elapsed 99%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49015minor)pagefaults 0swaps
+
+Measurement 4
+198.08user 0.77system 3:18.94elapsed 99%CPU (0avgtext+0avgdata 196984maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 5
+199.40user 0.75system 3:20.24elapsed 99%CPU (0avgtext+0avgdata 196984maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+
+###########################################Threads:1 100 tests/glid2.txt###########################################
+
+
+Measurement 1
+198.04user 4.67system 3:22.81elapsed 99%CPU (0avgtext+0avgdata 197684maxresident)k
+0inputs+390672outputs (0major+49029minor)pagefaults 0swaps
+
+Measurement 2
+201.91user 0.97system 3:22.98elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+Measurement 3
+201.94user 0.68system 3:22.74elapsed 99%CPU (0avgtext+0avgdata 197684maxresident)k
+0inputs+390672outputs (0major+49029minor)pagefaults 0swaps
+
+Measurement 4
+200.01user 0.62system 3:20.70elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+Measurement 5
+200.19user 0.67system 3:20.96elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+
+###########################################Threads:2 100 tests/glid2.txt###########################################
+
+
+Measurement 1
+199.46user 1.37system 1:46.95elapsed 187%CPU (0avgtext+0avgdata 197688maxresident)k
+0inputs+390672outputs (0major+49030minor)pagefaults 0swaps
+
+Measurement 2
+201.83user 0.66system 1:47.90elapsed 187%CPU (0avgtext+0avgdata 197692maxresident)k
+0inputs+390672outputs (0major+49032minor)pagefaults 0swaps
+
+Measurement 3
+201.79user 1.00system 1:48.27elapsed 187%CPU (0avgtext+0avgdata 197688maxresident)k
+0inputs+390672outputs (0major+49029minor)pagefaults 0swaps
+
+Measurement 4
+196.59user 4.65system 1:47.24elapsed 187%CPU (0avgtext+0avgdata 197692maxresident)k
+0inputs+390672outputs (0major+49031minor)pagefaults 0swaps
+
+Measurement 5
+201.70user 0.82system 1:48.12elapsed 187%CPU (0avgtext+0avgdata 197688maxresident)k
+0inputs+390672outputs (0major+49030minor)pagefaults 0swaps
+
+
+###########################################Threads:4 100 tests/glid2.txt###########################################
+
+
+Measurement 1
+203.24user 1.55system 1:01.40elapsed 333%CPU (0avgtext+0avgdata 197700maxresident)k
+0inputs+390672outputs (0major+49033minor)pagefaults 0swaps
+
+Measurement 2
+201.21user 1.33system 1:00.53elapsed 334%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49035minor)pagefaults 0swaps
+
+Measurement 3
+203.37user 0.89system 1:01.07elapsed 334%CPU (0avgtext+0avgdata 197704maxresident)k
+0inputs+390672outputs (0major+49034minor)pagefaults 0swaps
+
+Measurement 4
+201.14user 1.64system 1:00.64elapsed 334%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49035minor)pagefaults 0swaps
+
+Measurement 5
+202.59user 1.15system 1:01.11elapsed 333%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49034minor)pagefaults 0swaps
+
+
+###########################################Serial 1000 tests/glid2.txt###########################################
+
+
+Measurement 1
+1877.47user 0.86system 31:18.92elapsed 99%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 2
+1882.84user 0.89system 31:51.25elapsed 98%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 3
+1878.78user 0.91system 31:19.94elapsed 99%CPU (0avgtext+0avgdata 196984maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 4
+1883.68user 1.00system 31:24.96elapsed 99%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+Measurement 5
+1881.33user 1.21system 31:22.82elapsed 99%CPU (0avgtext+0avgdata 196980maxresident)k
+0inputs+390672outputs (0major+49016minor)pagefaults 0swaps
+
+
+###########################################Threads:1 1000 tests/glid2.txt###########################################
+
+
+Measurement 1
+1924.64user 0.70system 32:05.81elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+Measurement 2
+1908.18user 1.25system 31:49.87elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+Measurement 3
+1924.95user 0.81system 32:06.03elapsed 99%CPU (0avgtext+0avgdata 197688maxresident)k
+0inputs+390672outputs (0major+49028minor)pagefaults 0swaps
+
+Measurement 4
+1901.99user 1.35system 31:43.54elapsed 99%CPU (0avgtext+0avgdata 197680maxresident)k
+0inputs+390672outputs (0major+49027minor)pagefaults 0swaps
+
+Measurement 5
+1904.07user 4.31system 31:48.59elapsed 99%CPU (0avgtext+0avgdata 197684maxresident)k
+0inputs+390672outputs (0major+49027minor)pagefaults 0swaps
+
+
+###########################################Threads:2 1000 tests/glid2.txt###########################################
+
+
+Measurement 1
+1906.29user 1.31system 16:01.68elapsed 198%CPU (0avgtext+0avgdata 197692maxresident)k
+0inputs+390672outputs (0major+49030minor)pagefaults 0swaps
+
+Measurement 2
+1902.32user 2.46system 15:59.74elapsed 198%CPU (0avgtext+0avgdata 197692maxresident)k
+0inputs+390672outputs (0major+49030minor)pagefaults 0swaps
+
+Measurement 3
+1901.36user 1.71system 15:58.82elapsed 198%CPU (0avgtext+0avgdata 197696maxresident)k
+0inputs+390672outputs (0major+49031minor)pagefaults 0swaps
+
+Measurement 4
+1897.76user 4.15system 15:58.73elapsed 198%CPU (0avgtext+0avgdata 197696maxresident)k
+0inputs+390672outputs (0major+49031minor)pagefaults 0swaps
+
+Measurement 5
+1906.42user 1.42system 16:02.46elapsed 198%CPU (0avgtext+0avgdata 197696maxresident)k
+0inputs+390672outputs (0major+49031minor)pagefaults 0swaps
+
+
+###########################################Threads:4 1000 tests/glid2.txt###########################################
+
+
+Measurement 1
+1917.96user 1.93system 8:11.49elapsed 390%CPU (0avgtext+0avgdata 197712maxresident)k
+0inputs+390672outputs (0major+49035minor)pagefaults 0swaps
+
+Measurement 2
+1916.91user 1.81system 8:11.21elapsed 390%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49034minor)pagefaults 0swaps
+
+Measurement 3
+1903.77user 2.12system 8:07.02elapsed 391%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49035minor)pagefaults 0swaps
+
+Measurement 4
+1904.77user 5.27system 8:08.34elapsed 391%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49033minor)pagefaults 0swaps
+
+Measurement 5
+1929.18user 2.10system 8:15.72elapsed 389%CPU (0avgtext+0avgdata 197708maxresident)k
+0inputs+390672outputs (0major+49034minor)pagefaults 0swaps
