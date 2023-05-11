@@ -234,20 +234,30 @@ void Quad::calculateForce(Planet *p){
         cerr<<"Debug: reached planet"<<endl;
         return;
     }
-    if(planet != NULL && planet!=p){
+    //if we reached a leaf directly use planet
+    if(planet != NULL){
+        if(planet==p) return ; //don't calculate force from self
         long double d = getDistance(p->position, planet->position);
-        long double f = ( G* planet->mass * p->mass / pow(getDistance(p->position, planet->position),2) );
-        p->forces.fx = f * (planet->position.x - p->position.x) / d;
-        p->forces.fy = f * (planet->position.y - p->position.y) / d;
+        long double f = ( G* planet->mass * p->mass / pow(d,2) );
+        p->forces.fx += f * (planet->position.x - p->position.x) / d;
+        p->forces.fy += f * (planet->position.y - p->position.y) / d;
+        return ;
     }
-    
-    if(){
-        long double d = getDistance(p->position, planet->position);
-        long double f = ( G* planet->mass * p->mass / pow(getDistance(p->position, planet->position),2) );
-        p->forces.fx = f * (planet->position.x - p->position.x) / d;
-        p->forces.fy = f * (planet->position.y - p->position.y) / d;
+    //if it is far away enough, use cluster
+    if(getDistance(p->position, center_of_mass) >= boundary->getMinSize()){
+        long double d = getDistance(p->position, center_of_mass);
+        long double f = ( G* cluster_mass * p->mass / pow(d,2) );
+        p->forces.fx += f * (center_of_mass.x - p->position.x) / d;
+        p->forces.fy += f * (center_of_mass.y - p->position.y) / d;
+        return ;
     }
-    
+
+    //else recursively call for all children (if they exist)
+    if(children[TOP_LEFT]) children[TOP_LEFT]->calculateForce(p);
+    if(children[TOP_RIGHT]) children[TOP_RIGHT]->calculateForce(p);
+    if(children[BOTTOM_LEFT]) children[BOTTOM_LEFT]->calculateForce(p);
+    if(children[BOTTOM_RIGHT]) children[BOTTOM_RIGHT]->calculateForce(p);
+    return ;
 }
 
 //----------------------------------------------------------------------------------------------
@@ -280,10 +290,18 @@ BHtree::BHtree(Boundary *initialSpace, vector<Planet *>& planets)
 void BHtree::insertPlanet(Planet* planet){
     root->insertPlanet(planet);
 }
+
+void BHtree::calculateForce(Planet* planet){
+    root->calculateForce(planet);
+}
 //----------------------------------------------------------------------------------------------
 
 long double getDistance(Point p1, Point p2){
-    
+    //get sides
+    long double x_side = abs(p1.x-p2.x);
+    long double y_side = abs(p1.y-p2.y);
+    //use pythagorean theorem
+    return sqrt(pow(x_side,2)+pow(y_side,2));
 }
 
 int main()
@@ -302,6 +320,8 @@ int main()
 
     BHtree *q = new BHtree(new Boundary(Point(), Point(20, 20)), planets); 
 
+    q->calculateForce(planets[0]);
+
     cout << "D: mass=" << q->root->children[TOP_LEFT]->children[TOP_LEFT]->cluster_mass << " || Center = " << q->root->children[TOP_LEFT]->children[TOP_LEFT]->center_of_mass.toString() << endl;
     cout << "E: mass=" << q->root->children[TOP_LEFT]->children[TOP_RIGHT]->cluster_mass << " || Center = " << q->root->children[TOP_LEFT]->children[TOP_RIGHT]->center_of_mass.toString() << endl;
     cout << "F: mass=" << q->root->children[TOP_LEFT]->children[BOTTOM_LEFT]->cluster_mass << " || Center = " << q->root->children[TOP_LEFT]->children[BOTTOM_LEFT]->center_of_mass.toString() << endl;
@@ -312,4 +332,5 @@ int main()
     cout << "BR: mass=" << q->root->children[BOTTOM_RIGHT]->cluster_mass << " || Center = " << q->root->children[BOTTOM_RIGHT]->center_of_mass.toString() << endl;
     cout << "ROOT: mass=" << q->root->cluster_mass << " || Center = " << q->root->center_of_mass.toString() << endl;
 
+    cout<<"A: force: fx "<<planets[0]->forces.fx<<" | fy "<<planets[0]->forces.fy<<endl;
 }
