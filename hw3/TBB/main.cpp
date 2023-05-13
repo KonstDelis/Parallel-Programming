@@ -4,6 +4,10 @@
 #include <vector>
 #include <math.h>
 #include <string.h>
+#include <tbb/blocked_range.h>
+#include <tbb/parallel_for.h>
+#include <tbb/tbb.h>
+#include <tbb/task_group.h>
 #include "BHtree.hpp"
 using namespace std;
 
@@ -67,6 +71,30 @@ void simulate(){
     }
 }
 
+void parallel_simulate(){
+    for(int iteration=0; iteration<iterations; iteration++){
+        BHtree *q = new BHtree(new Boundary(Point(-1*space_size,-1*space_size), Point(space_size, space_size)), planets); 
+        //parallel
+        tbb::parallel_for(
+            tbb::blocked_range<size_t>(0,planets.size()),
+            [&](const tbb::blocked_range<size_t>& r)->void {
+                for(size_t i = r.begin(); i!= r.end(); i++){
+                    q->calculateForce(planets[i]);
+                }
+            }
+        );
+        tbb::parallel_for(
+            tbb::blocked_range<size_t>(0,planets.size()),
+            [&](const tbb::blocked_range<size_t>& r)->void {
+                for(size_t i = r.begin(); i!= r.end(); i++){
+                    changePosition(planets[i]);
+                }
+            }
+        );
+        delete q;
+    }
+}
+
 void paramError(){
     cerr<<"Error: wrong parameters. Try parameters: "<<endl<<
             "\t'-in filepath.txt': input file (neccessary)"<<endl<<
@@ -117,11 +145,12 @@ int main(int argc, char* argv[])
         cerr<<"Error: unable to find output file '"<<foutpath<<"'"<<endl;
     }
     //---------------------------------------------------
+    tbb::global_control control(tbb::global_control::max_allowed_parallelism, thread_no);
 
     //gets input, places planets to "planets" vector
     getInput(fin);
     //simulation starts
-    simulate();
+    parallel_simulate();
     //write results in file
     writeResults(fout);
     //free planets
