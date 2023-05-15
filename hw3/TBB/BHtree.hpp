@@ -1,10 +1,10 @@
-#include <string>
-#include <iostream>
-#include <vector>
-#include <math.h>
+#define TOP_LEFT 0
+#define TOP_RIGHT 1
+#define BOTTOM_LEFT 2
+#define BOTTOM_RIGHT 3
 
-long double threshold = 0.5;
-long double G = 6.67*pow(10,-11);
+extern long double threshold;
+extern long double G;
 
 class Point {
     public:
@@ -74,7 +74,9 @@ class Quad{
 
     Quad();
     Quad(Boundary* b);
+    ~Quad();
 
+    bool hasChildren();
     void insertPlanet(Planet* p);
     void calculateForce(Planet* p);
 };
@@ -88,6 +90,7 @@ class BHtree{
 
     BHtree(Boundary *initialSpace);
     BHtree(Boundary *initialSpace, std::vector<Planet*>& planets);
+    ~BHtree();
     void insertPlanet(Planet* planet);
     void calculateForce(Planet* p);
 };

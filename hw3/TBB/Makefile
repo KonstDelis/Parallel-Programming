@@ -1,9 +1,13 @@
-FLAGS = 
+FLAGS =  -ltbb
 
-all: BHtree
+all: barnes_hut.out
 
-run: BHtree
-	.\BHtree
+clean: 
+	rm -rf *.o *.out
 
-BHtree: BHtree.cpp
-	g++ $^ $(FLAGS) -o $@
+cleantxt:
+	rm -rf *.txt
+
+barnes_hut.out: BHtree.cpp main.cpp
+	g++ BHtree.cpp -c
+	g++ main.cpp BHtree.o $(FLAGS) -o $@
