@@ -31,17 +31,17 @@ public class BarnesHut {
                     new Point(Utility.spaceSize+1, Utility.spaceSize+1)),
                     Utility.planets);
             //Parallel calculate forces
-            ForkJoinTask<?> task1 = forkJoinPool.submit(() -> Arrays.stream(Utility.planets).parallel().forEach(planet -> {
+            ForkJoinTask<?> forceCalculation_t = forkJoinPool.submit(() -> Arrays.stream(Utility.planets).parallel().forEach(planet -> {
                 bhtree.calculateForce(planet);
             }));
             // Wait for task1 to complete before starting task2
-            task1.join();
+            forceCalculation_t.join();
             //Parallel change to new position
-            ForkJoinTask<?> task2 = forkJoinPool.submit(() -> Arrays.stream(Utility.planets).parallel().forEach(planet -> {
+            ForkJoinTask<?> changePosition_t = forkJoinPool.submit(() -> Arrays.stream(Utility.planets).parallel().forEach(planet -> {
                 changePosition(planet);
             }));
             // Wait for both tasks to complete
-            task2.join();
+            changePosition_t.join();
         }
     }
 
