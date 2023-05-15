@@ -1,5 +1,3 @@
-import java.math.BigDecimal;
-
 public class Planet {
     public Point position;
     public double vx,vy,mass;

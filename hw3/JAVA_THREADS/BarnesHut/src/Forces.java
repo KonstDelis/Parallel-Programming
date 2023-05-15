@@ -1,4 +1,3 @@
-import java.math.BigDecimal;
 
 public class Forces {
     public double fx, fy;
