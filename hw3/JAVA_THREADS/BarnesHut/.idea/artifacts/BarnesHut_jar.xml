@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BarnesHut:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BarnesHut_jar</output-path>
+    <root id="archive" name="BarnesHut.jar">
+      <element id="module-output" name="BarnesHut" />
+    </root>
+  </artifact>
+</component>
