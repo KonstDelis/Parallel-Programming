@@ -2,10 +2,10 @@ import java.math.BigDecimal;
 
 public class Planet {
     public Point position;
-    public BigDecimal vx,vy,mass;
+    public double vx,vy,mass;
     public String name;
     public Forces forces;
-    Planet(String name, Point position, BigDecimal vx, BigDecimal vy, BigDecimal mass){
+    Planet(String name, Point position, double vx, double vy, double mass){
         this.name = name;
         this.position = position;
         this.vx = vx;

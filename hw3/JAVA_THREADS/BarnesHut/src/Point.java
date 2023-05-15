@@ -1,15 +1,15 @@
 import java.math.BigDecimal;
 
 public class Point {
-    public BigDecimal x;
-    public BigDecimal y;
+    public double x;
+    public double y;
 
-    Point(BigDecimal x, BigDecimal y){
+    Point(double x, double y){
         this.x = x;
         this.y = y;
     }
     Point(){
-        x=new BigDecimal("0.0");
-        y=new BigDecimal("0.0");
+        x=0.0;
+        y=0.0;
     }
 }

@@ -12,27 +12,27 @@ public class Boundary {
         this.minPoint = new Point();
         this.maxPoint = new Point();
     }
-    public BigDecimal getMiddleRow(){
-        BigDecimal addition = minPoint.x.add(maxPoint.x);
-        return addition.divide(new BigDecimal(2));
+    public double getMiddleRow(){
+        double addition = minPoint.x+maxPoint.x;
+        return addition/2.0;
     }
-    public BigDecimal getMiddleColumn(){
-        BigDecimal addition = minPoint.y.add(maxPoint.y);
-        return addition.divide(new BigDecimal(2));
+    public double getMiddleColumn(){
+        double addition = minPoint.y+maxPoint.y;
+        return addition/2.0;
     }
     public SplitBoundary split(){
         Point midPoint = new Point(getMiddleRow(), getMiddleColumn());
         return new SplitBoundary(minPoint, midPoint, maxPoint);
     }
     public boolean pointIsInBoundary(Point p){
-        if(p.x.compareTo(minPoint.x)<=0 || p.x.compareTo(maxPoint.x)>0 || p.y.compareTo(minPoint.y)<=0 || p.y.compareTo(maxPoint.y)>0){
+        if(p.x<=minPoint.x || p.x>maxPoint.x || p.y<=minPoint.y || p.y>maxPoint.y){
             return false;
         }
         return true;
     }
-    BigDecimal getMinSize(){
-        BigDecimal size_x = maxPoint.x.subtract(minPoint.x);
-        BigDecimal size_y = maxPoint.y.subtract(minPoint.y);
-        return size_x.compareTo(size_y)<0 ? size_y : size_x;
+    double getMinSize(){
+        double size_x = maxPoint.x-minPoint.x;
+        double size_y = maxPoint.y-minPoint.y;
+        return Math.max(size_x, size_y);
     }
 }

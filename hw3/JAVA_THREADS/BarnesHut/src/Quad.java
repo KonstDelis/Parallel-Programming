@@ -1,28 +1,30 @@
 import java.math.BigDecimal;
+import java.math.MathContext;
+import java.util.ArrayList;
 
 public class Quad {
     public Planet planet=null;
     public Boundary boundary=null;
     public Point centerOfMass=null;
-    public BigDecimal cluster_mass=null;
-    public Quad topLeft=null, topRight=null, bottomLeft=null, bottomRight=null;
+    public double cluster_mass=0.0;
+    public Quad [] children = new Quad[4];
 
     private void calculateMassCenter(){
-        BigDecimal mass_sum = new BigDecimal(0);
-        BigDecimal x_sum = new BigDecimal(0);
-        BigDecimal y_sum = new BigDecimal(0);
-        Quad[] children = {topLeft, topRight, bottomLeft, bottomRight};
+        double mass_sum = 0.0;
+        double x_sum = 0.0;
+        double y_sum = 0.0;
+
         for (int i = 0; i < 4; i++)
         {
             if (children[i].hasChildren() || children[i].planet != null)
             { // subtree contains at least one planet leaf
-                mass_sum = mass_sum.add(children[i].cluster_mass);
-                x_sum = x_sum.add( ( children[i].cluster_mass.multiply(children[i].centerOfMass.x) ) );
-                y_sum = y_sum.add( ( children[i].cluster_mass.multiply(children[i].centerOfMass.y) ) );
+                mass_sum += children[i].cluster_mass;
+                x_sum +=  children[i].cluster_mass * children[i].centerOfMass.x;
+                y_sum += children[i].cluster_mass * children[i].centerOfMass.y;
             }
         }
         cluster_mass = mass_sum;
-        centerOfMass = new Point(x_sum.divide(mass_sum), y_sum.divide(mass_sum));
+        centerOfMass = new Point(x_sum/mass_sum, y_sum/mass_sum);
     }
 
     public Quad(){
@@ -32,7 +34,7 @@ public class Quad {
     }
 
     public boolean hasChildren(){
-        return (topLeft!=null || bottomLeft!=null ||bottomRight!=null||topRight!=null);
+        return (children[0]!=null || children[1]!=null || children[2]!=null|| children[3]!=null);
     }
     public void insertPlanet(Planet p){
         if (p==null)
@@ -40,7 +42,7 @@ public class Quad {
             System.err.println("Error: Cannot insert NULL planet");
             return;
         }
-        if (boundary.pointIsInBoundary(p.position))
+        if (!boundary.pointIsInBoundary(p.position))
         {
             System.err.println("Error: Cannot insert '"+p.name+"' planet that is outside of the space that is examined");
             return;
@@ -53,18 +55,18 @@ public class Quad {
             centerOfMass = p.position;
             return;
         }
-        Quad[] children = {topLeft, topRight, bottomLeft, bottomRight};
+
         if (!hasChildren())
         {
-            if (p.position.x.compareTo(planet.position.x)==0 && p.position.y.compareTo(planet.position.y)==0) {
+            if (p.position.x==planet.position.x && p.position.y==planet.position.y) {
                 System.err.println("Cannot insert planets at the same point");
                 return;
             }
             SplitBoundary split = boundary.split();
-            topLeft = new Quad(split.topLeft);
-            topRight = new Quad(split.topRight);
-            bottomLeft = new Quad(split.bottomLeft);
-            bottomRight = new Quad(split.bottomRight);
+            children[0] = new Quad(split.topLeft);
+            children[1] = new Quad(split.topRight);
+            children[2] = new Quad(split.bottomLeft);
+            children[3] = new Quad(split.bottomRight);
 
             for (int i = 0; i < 4; i++)
             {
@@ -75,6 +77,7 @@ public class Quad {
                     break;
                 }
             }
+
             for (int i = 0; i < 4; i++)
             {
                 if (children[i].boundary.pointIsInBoundary(p.position))
@@ -107,31 +110,53 @@ public class Quad {
         }
         //if we reached a leaf directly use planet
         if(planet != null){
-            if(planet==p) return ; //don't calculate force from self
-            BigDecimal d = Utility.getDistance(p.position, planet.position);
-            BigDecimal f = planet.mass.multiply(p.mass).multiply( d.pow(2) ).multiply(new BigDecimal(Utility.G));
-            p.forces.fx = p.forces.fx.add( planet.position.x.subtract(p.position.x).divide(d).multiply(f) );
-            p.forces.fy = p.forces.fy.add( planet.position.y.subtract(p.position.y).divide(d).multiply(f) );
+            double d = Utility.getDistance(p.position, planet.position);
+            double f = Utility.G * planet.mass * p.mass / Math.pow(d,2) ;
+            p.forces.fx += f * (planet.position.x - p.position.x) / d;
+            p.forces.fy += f * (planet.position.y - p.position.y) / d;
             return ;
         }
         //if it is far away enough, use cluster
-        if(!boundary.pointIsInBoundary(p.position) && hasChildren() && Utility.getDistance(p.position, centerOfMass).compareTo(boundary.getMinSize()) >= 0){
-            BigDecimal d = Utility.getDistance(p.position, centerOfMass);
-            BigDecimal f = cluster_mass.multiply(p.mass).divide( d.pow(2)).multiply(new BigDecimal(Utility.G));
-            p.forces.fx = p.forces.fx.add( centerOfMass.x.subtract(p.position.x).divide(d).multiply(f) );
-            p.forces.fy = p.forces.fy.add( centerOfMass.y.subtract(p.position.y).divide(d).multiply(f) );
+        if(!boundary.pointIsInBoundary(p.position) && hasChildren() && Utility.getDistance(p.position, centerOfMass)>=boundary.getMinSize()){
+            double d = Utility.getDistance(p.position, centerOfMass);
+            double f = ( Utility.G* cluster_mass * p.mass / Math.pow(d,2) );
+            p.forces.fx += f * (centerOfMass.x - p.position.x) / d;
+            p.forces.fy += f * (centerOfMass.y - p.position.y) / d;
             return ;
         }
 
         //else recursively call for all children (if they exist)
-        if(topLeft!=null) topLeft.calculateForce(p);
-        if(topRight!=null) topRight.calculateForce(p);
-        if(bottomLeft!=null) bottomLeft.calculateForce(p);
-        if(bottomRight!=null) bottomRight.calculateForce(p);
+        if(children[0]!=null) children[0].calculateForce(p);
+        if(children[1]!=null) children[1].calculateForce(p);
+        if(children[2]!=null) children[2].calculateForce(p);
+        if(children[3]!=null) children[3].calculateForce(p);
         return ;
     }
 
-    static void main(String[] args){
+    public static void main(String[] args){
+        ArrayList<Planet> planets = new ArrayList<Planet>();
+        planets.add(new Planet("A", new Point(15, 15), 10, 1, 80));
+        planets.add(new Planet("B", new Point(5, 15), 10, 1, 80));
+        planets.add(new Planet("C", new Point(15, 5), 10, 1, 80));
+        planets.add(new Planet("D", new Point(2.5, 2.5), 10, 1, 20));
+        planets.add(new Planet("E", new Point(7.5, 2.5), 10, 1, 20));
+        planets.add(new Planet("F", new Point(2.5, 7.5), 10, 1, 20));
+        planets.add(new Planet("G1", new Point(6.25, 6.25), 10, 1, 5));
+        planets.add(new Planet("G2", new Point(8.75, 6.25), 10, 1, 5));
+        planets.add(new Planet("G3", new Point(6.25, 8.75), 10, 1, 5));
+        planets.add(new Planet("G4", new Point(8.75, 8.75), 10, 1, 5));
+        BHtree q = new BHtree(new Boundary(new Point(), new Point(20, 20)));
+
+        for(Planet planet : planets){
+            System.out.println("Adding "+planet.name);
+            q.insertPlanet(planet);
+        }
+
+        System.out.println("Root: sum mass = "+q.root.cluster_mass+ " || center of mass = ("+ q.root.centerOfMass.x+", "+ q.root.centerOfMass.y+")");
+        System.out.println("TL: sum mass = "+q.root.children[0].cluster_mass+ " || center of mass = ("+ q.root.children[0].centerOfMass.x+", "+ q.root.children[0].centerOfMass.y+")");
+        System.out.println("TR: sum mass = "+q.root.children[1].cluster_mass+ " || center of mass = ("+ q.root.children[1].centerOfMass.x+", "+ q.root.children[1].centerOfMass.y+")");
+        System.out.println("BL: sum mass = "+q.root.children[2].cluster_mass+ " || center of mass = ("+ q.root.children[2].centerOfMass.x+", "+ q.root.children[2].centerOfMass.y+")");
+        System.out.println("BR: sum mass = "+q.root.children[3].cluster_mass+ " || center of mass = ("+ q.root.children[3].centerOfMass.x+", "+ q.root.children[3].centerOfMass.y+")");
 
     }
 }

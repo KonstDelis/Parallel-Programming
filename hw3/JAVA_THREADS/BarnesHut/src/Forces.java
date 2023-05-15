@@ -1,14 +1,14 @@
 import java.math.BigDecimal;
 
 public class Forces {
-    public BigDecimal fx, fy;
+    public double fx, fy;
 
     public Forces(){
         reset();
     }
 
     public void reset(){
-        fx = new BigDecimal(0);
-        fy = new BigDecimal(0);
+        fx = 0.0;
+        fy = 0.0;
     }
 }
