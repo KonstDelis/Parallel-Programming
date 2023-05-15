@@ -2,7 +2,6 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Utility {
-    public static double threshold = 0.5;
     public static double G = 6.67*Math.pow(10,-11);
     public static int iterations=0, thread_no=4;
     public static double spaceSize;
@@ -34,25 +33,27 @@ public class Utility {
     public static void writeOutput(PrintWriter fout){
         fout.println(planets.length);
         fout.println(Utility.spaceSize);
-        for(int i=0; i<Utility.planets.length; i++){
-            fout.println(planets[i].position.x+" "+
-                    planets[i].position.x+" "+
-                    planets[i].position.y+" "+
-                    planets[i].vx+" "+
-                    planets[i].vy+" "+
-                    planets[i].mass+" "+
-                    planets[i].name
+        for (Planet planet : Utility.planets) {
+            fout.println(planet.position.x + " " +
+                    planet.position.x + " " +
+                    planet.position.y + " " +
+                    planet.vx + " " +
+                    planet.vy + " " +
+                    planet.mass + " " +
+                    planet.name
             );
         }
         fout.close();
     }
 
     public static void paramError(){
-        System.err.println("Error: wrong parameters. Try parameters: \n"+
-                "\t'-in filepath.txt': input file (neccessary)\n"+
-                "\t'-i iteration_num(int)': number of iterations(neccessary)\n"+
-                "\t'-t thread_no(int)': number of threads (optional, default is 4)\n"+
-                "\t'-out filepath.txt': output file (optional, default is 'test5serial.txt')\n");
+        System.err.println("""
+                Error: wrong parameters. Try parameters:\s
+                \t'-in filepath.txt': input file (necessary)
+                \t'-i iteration_num(int)': number of iterations(necessary)
+                \t'-t thread_no(int)': number of threads (optional, default is 4)
+                \t'-out filepath.txt': output file (optional, default is 'test5serial.txt')
+                """);
         System.exit(-1);
     }
 }
