@@ -2,7 +2,7 @@ import subprocess
 import os
 
 threads = ['1', '2', '4']
-iterations = ["5000", "50000"]
+iterations = ["50000"]
 tests = ["InputTests/input1.txt","InputTests/input2.txt", "InputTests/input3.txt", "InputTests/input3.txt", "InputTests/input4.txt", "InputTests/input5.txt"]
 
 

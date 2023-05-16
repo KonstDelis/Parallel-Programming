@@ -1,0 +1,650 @@
+
+
+###########################################Threads:1 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.01user 0.25system 0:00.65elapsed 194%CPU (0avgtext+0avgdata 79316maxresident)k
+0inputs+72outputs (8major+15142minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.17user 0.17system 0:00.71elapsed 188%CPU (0avgtext+0avgdata 80428maxresident)k
+0inputs+72outputs (8major+15280minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.02user 0.23system 0:00.64elapsed 194%CPU (0avgtext+0avgdata 79636maxresident)k
+0inputs+72outputs (8major+15202minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+0.83user 0.19system 0:00.49elapsed 210%CPU (0avgtext+0avgdata 69808maxresident)k
+0inputs+72outputs (8major+12683minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+0.91user 0.30system 0:00.66elapsed 183%CPU (0avgtext+0avgdata 70048maxresident)k
+0inputs+72outputs (8major+12581minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.10user 0.27system 0:00.72elapsed 189%CPU (0avgtext+0avgdata 74408maxresident)k
+0inputs+72outputs (8major+13390minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.26user 0.28system 0:00.71elapsed 216%CPU (0avgtext+0avgdata 85280maxresident)k
+0inputs+72outputs (8major+16764minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+0.94user 0.30system 0:00.57elapsed 217%CPU (0avgtext+0avgdata 83660maxresident)k
+0inputs+72outputs (8major+16331minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.18user 0.27system 0:00.70elapsed 205%CPU (0avgtext+0avgdata 82988maxresident)k
+0inputs+72outputs (8major+16171minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.24user 0.33system 0:00.70elapsed 224%CPU (0avgtext+0avgdata 86328maxresident)k
+0inputs+72outputs (8major+16991minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.02user 0.43system 0:00.74elapsed 196%CPU (0avgtext+0avgdata 73884maxresident)k
+0inputs+72outputs (8major+13754minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.12user 0.37system 0:00.73elapsed 203%CPU (0avgtext+0avgdata 74900maxresident)k
+0inputs+72outputs (8major+13330minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.08user 0.34system 0:00.69elapsed 205%CPU (0avgtext+0avgdata 75128maxresident)k
+0inputs+72outputs (8major+13395minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.10user 0.34system 0:00.67elapsed 212%CPU (0avgtext+0avgdata 75276maxresident)k
+0inputs+72outputs (8major+13720minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.06user 0.38system 0:00.73elapsed 197%CPU (0avgtext+0avgdata 73684maxresident)k
+0inputs+72outputs (8major+13040minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+2.45user 1.31system 0:04.15elapsed 90%CPU (0avgtext+0avgdata 156540maxresident)k
+0inputs+72outputs (8major+34481minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+2.56user 1.27system 0:04.31elapsed 88%CPU (0avgtext+0avgdata 154368maxresident)k
+0inputs+104outputs (12major+33893minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+2.76user 1.29system 0:04.56elapsed 88%CPU (0avgtext+0avgdata 153752maxresident)k
+0inputs+72outputs (8major+33755minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+2.14user 1.11system 0:03.39elapsed 96%CPU (0avgtext+0avgdata 148048maxresident)k
+0inputs+72outputs (8major+31613minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+2.33user 1.28system 0:03.85elapsed 93%CPU (0avgtext+0avgdata 155380maxresident)k
+0inputs+72outputs (8major+34087minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+2.67user 1.90system 0:04.00elapsed 114%CPU (0avgtext+0avgdata 152624maxresident)k
+0inputs+72outputs (8major+33451minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+2.65user 1.91system 0:04.24elapsed 107%CPU (0avgtext+0avgdata 146068maxresident)k
+0inputs+72outputs (8major+31111minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+3.21user 1.59system 0:04.19elapsed 114%CPU (0avgtext+0avgdata 162996maxresident)k
+0inputs+72outputs (8major+36175minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+2.86user 1.98system 0:04.25elapsed 114%CPU (0avgtext+0avgdata 159932maxresident)k
+0inputs+72outputs (8major+35281minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+2.48user 1.92system 0:04.39elapsed 100%CPU (0avgtext+0avgdata 147108maxresident)k
+0inputs+104outputs (12major+31396minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+3.01user 3.24system 0:04.99elapsed 125%CPU (0avgtext+0avgdata 156924maxresident)k
+0inputs+104outputs (12major+34586minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+3.42user 3.45system 0:05.06elapsed 135%CPU (0avgtext+0avgdata 147592maxresident)k
+0inputs+104outputs (12major+31540minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+3.51user 3.64system 0:05.24elapsed 136%CPU (0avgtext+0avgdata 150908maxresident)k
+0inputs+104outputs (12major+34362minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+2.71user 2.85system 0:04.55elapsed 122%CPU (0avgtext+0avgdata 146740maxresident)k
+0inputs+72outputs (8major+31566minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+3.19user 3.54system 0:05.07elapsed 132%CPU (0avgtext+0avgdata 146912maxresident)k
+0inputs+72outputs (8major+31328minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.45user 0.28system 0:01.28elapsed 135%CPU (0avgtext+0avgdata 199796maxresident)k
+0inputs+120outputs (12major+44791minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.46user 0.32system 0:01.25elapsed 142%CPU (0avgtext+0avgdata 199724maxresident)k
+0inputs+88outputs (8major+44530minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.23user 0.48system 0:01.16elapsed 147%CPU (0avgtext+0avgdata 191696maxresident)k
+0inputs+88outputs (8major+42680minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.39user 0.32system 0:01.18elapsed 144%CPU (0avgtext+0avgdata 196856maxresident)k
+0inputs+88outputs (8major+43979minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 5000
+Space size = 2.5E11
+1.33user 0.36system 0:01.17elapsed 143%CPU (0avgtext+0avgdata 204148maxresident)k
+0inputs+120outputs (12major+45633minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.59user 0.43system 0:01.25elapsed 160%CPU (0avgtext+0avgdata 175192maxresident)k
+0inputs+96outputs (8major+38399minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.57user 0.40system 0:01.23elapsed 160%CPU (0avgtext+0avgdata 190936maxresident)k
+0inputs+88outputs (8major+42564minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.56user 0.37system 0:01.22elapsed 158%CPU (0avgtext+0avgdata 171096maxresident)k
+0inputs+88outputs (8major+37770minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.70user 0.49system 0:01.44elapsed 152%CPU (0avgtext+0avgdata 198212maxresident)k
+0inputs+88outputs (8major+44535minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 2
+Iterations = 5000
+Space size = 2.5E11
+1.97user 0.61system 0:01.23elapsed 210%CPU (0avgtext+0avgdata 221268maxresident)k
+0inputs+88outputs (8major+51154minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.74user 0.60system 0:01.29elapsed 182%CPU (0avgtext+0avgdata 177212maxresident)k
+0inputs+88outputs (8major+39313minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.86user 0.62system 0:01.37elapsed 180%CPU (0avgtext+0avgdata 191628maxresident)k
+0inputs+88outputs (8major+42911minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.74user 0.64system 0:01.38elapsed 172%CPU (0avgtext+0avgdata 172076maxresident)k
+0inputs+120outputs (12major+37619minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.89user 0.58system 0:01.36elapsed 181%CPU (0avgtext+0avgdata 194684maxresident)k
+0inputs+88outputs (8major+43284minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 4
+Iterations = 5000
+Space size = 2.5E11
+1.91user 0.58system 0:01.35elapsed 185%CPU (0avgtext+0avgdata 196348maxresident)k
+0inputs+88outputs (8major+44300minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+5.74user 2.22system 0:08.54elapsed 93%CPU (0avgtext+0avgdata 300320maxresident)k
+0inputs+152outputs (16major+70221minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+5.79user 2.01system 0:08.16elapsed 95%CPU (0avgtext+0avgdata 313064maxresident)k
+0inputs+120outputs (12major+72905minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+5.95user 1.94system 0:08.29elapsed 95%CPU (0avgtext+0avgdata 298824maxresident)k
+0inputs+152outputs (16major+69793minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+5.85user 1.93system 0:08.19elapsed 94%CPU (0avgtext+0avgdata 301848maxresident)k
+0inputs+152outputs (16major+70514minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 50000
+Space size = 2.5E11
+5.54user 2.11system 0:07.93elapsed 96%CPU (0avgtext+0avgdata 273620maxresident)k
+0inputs+88outputs (8major+64343minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+7.15user 3.61system 0:09.28elapsed 115%CPU (0avgtext+0avgdata 233600maxresident)k
+0inputs+88outputs (8major+53032minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+6.45user 3.60system 0:08.64elapsed 116%CPU (0avgtext+0avgdata 284208maxresident)k
+0inputs+152outputs (16major+66272minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+6.71user 3.67system 0:08.78elapsed 118%CPU (0avgtext+0avgdata 262764maxresident)k
+0inputs+120outputs (12major+60814minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+7.55user 3.31system 0:09.59elapsed 113%CPU (0avgtext+0avgdata 289676maxresident)k
+0inputs+160outputs (16major+67963minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 2
+Iterations = 50000
+Space size = 2.5E11
+6.60user 3.71system 0:08.94elapsed 115%CPU (0avgtext+0avgdata 284988maxresident)k
+0inputs+152outputs (16major+66801minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+8.23user 4.96system 0:09.32elapsed 141%CPU (0avgtext+0avgdata 289388maxresident)k
+0inputs+152outputs (16major+67765minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+9.08user 4.16system 0:09.11elapsed 145%CPU (0avgtext+0avgdata 224440maxresident)k
+0inputs+152outputs (16major+51217minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+8.43user 4.59system 0:09.05elapsed 143%CPU (0avgtext+0avgdata 269628maxresident)k
+0inputs+120outputs (12major+62899minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+8.53user 4.63system 0:09.16elapsed 143%CPU (0avgtext+0avgdata 216820maxresident)k
+0inputs+152outputs (16major+49263minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 4
+Iterations = 50000
+Space size = 2.5E11
+8.91user 4.40system 0:09.20elapsed 144%CPU (0avgtext+0avgdata 281776maxresident)k
+0inputs+152outputs (16major+65603minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 5000
+Space size = 5.0E9
+1.17user 0.34system 0:01.01elapsed 148%CPU (0avgtext+0avgdata 166716maxresident)k
+0inputs+88outputs (8major+36285minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 5000
+Space size = 5.0E9
+1.21user 0.34system 0:01.02elapsed 151%CPU (0avgtext+0avgdata 162108maxresident)k
+0inputs+88outputs (8major+35541minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 5000
+Space size = 5.0E9
+1.30user 0.22system 0:01.01elapsed 151%CPU (0avgtext+0avgdata 165696maxresident)k
+0inputs+120outputs (12major+36007minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 5000
+Space size = 5.0E9
+1.27user 0.30system 0:01.04elapsed 152%CPU (0avgtext+0avgdata 165148maxresident)k
+0inputs+88outputs (8major+36059minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 5000
+Space size = 5.0E9
+1.18user 0.35system 0:01.01elapsed 151%CPU (0avgtext+0avgdata 165160maxresident)k
+0inputs+88outputs (8major+35885minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 5000
+Space size = 5.0E9
+1.58user 0.36system 0:01.15elapsed 168%CPU (0avgtext+0avgdata 173016maxresident)k
+0inputs+88outputs (8major+37866minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 5000
+Space size = 5.0E9
+1.47user 0.41system 0:01.15elapsed 163%CPU (0avgtext+0avgdata 174832maxresident)k
+0inputs+88outputs (8major+38288minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 5000
+Space size = 5.0E9
+1.33user 0.46system 0:01.11elapsed 161%CPU (0avgtext+0avgdata 170676maxresident)k
+0inputs+88outputs (8major+37840minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 2
+Iterations = 5000
+Space size = 5.0E9
+1.48user 0.36system 0:01.14elapsed 162%CPU (0avgtext+0avgdata 171536maxresident)k
+0inputs+88outputs (8major+37945minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 2
+Iterations = 5000
+Space size = 5.0E9
+1.36user 0.45system 0:01.10elapsed 164%CPU (0avgtext+0avgdata 174208maxresident)k
+0inputs+88outputs (8major+38155minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Thread no = 4
+Iterations = 5000
+Space size = 5.0E9
+1.64user 0.55system 0:01.18elapsed 185%CPU (0avgtext+0avgdata 180932maxresident)k
+0inputs+88outputs (8major+40255minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 4
+Iterations = 5000
+Space size = 5.0E9
+1.63user 0.57system 0:01.19elapsed 185%CPU (0avgtext+0avgdata 179672maxresident)k
+0inputs+88outputs (8major+39929minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 4
+Iterations = 5000
+Space size = 5.0E9
+1.65user 0.56system 0:01.23elapsed 179%CPU (0avgtext+0avgdata 171544maxresident)k
+0inputs+88outputs (8major+37482minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 4
+Iterations = 5000
+Space size = 5.0E9
+1.67user 0.68system 0:01.20elapsed 195%CPU (0avgtext+0avgdata 189112maxresident)k
+0inputs+88outputs (8major+42343minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 4
+Iterations = 5000
+Space size = 5.0E9
+1.71user 0.50system 0:01.17elapsed 188%CPU (0avgtext+0avgdata 182024maxresident)k
+0inputs+88outputs (8major+40357minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Thread no = 1
+Iterations = 50000
+Space size = 5.0E9
+4.79user 2.11system 0:07.21elapsed 95%CPU (0avgtext+0avgdata 237460maxresident)k
+0inputs+88outputs (8major+54843minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 1
+Iterations = 50000
+Space size = 5.0E9
+4.70user 2.18system 0:07.28elapsed 94%CPU (0avgtext+0avgdata 261740maxresident)k
+0inputs+88outputs (8major+60712minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 1
+Iterations = 50000
+Space size = 5.0E9
+4.81user 2.00system 0:07.10elapsed 96%CPU (0avgtext+0avgdata 250592maxresident)k
+0inputs+88outputs (8major+57776minor)pagefaults 0swaps
+
+Measurement 4
+Thread no = 1
+Iterations = 50000
+Space size = 5.0E9
+5.27user 1.82system 0:07.65elapsed 92%CPU (0avgtext+0avgdata 240212maxresident)k
+0inputs+88outputs (8major+55271minor)pagefaults 0swaps
+
+Measurement 5
+Thread no = 1
+Iterations = 50000
+Space size = 5.0E9
+4.97user 1.93system 0:07.24elapsed 95%CPU (0avgtext+0avgdata 267576maxresident)k
+0inputs+88outputs (8major+62026minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Thread no = 2
+Iterations = 50000
+Space size = 5.0E9
+5.96user 3.06system 0:08.16elapsed 110%CPU (0avgtext+0avgdata 266520maxresident)k
+0inputs+88outputs (8major+61844minor)pagefaults 0swaps
+
+Measurement 2
+Thread no = 2
+Iterations = 50000
+Space size = 5.0E9
+6.04user 2.92system 0:07.85elapsed 114%CPU (0avgtext+0avgdata 244340maxresident)k
+0inputs+88outputs (8major+56382minor)pagefaults 0swaps
+
+Measurement 3
+Thread no = 2
+Iterations = 50000
+Space size = 5.0E9
+Command exited with non-zero status 130
+3.25user 1.07system 0:03.40elapsed 127%CPU (0avgtext+0avgdata 270728maxresident)k
+0inputs+64outputs (8major+62925minor)pagefaults 0swaps
