@@ -11,7 +11,7 @@
 #include "BHtree.hpp"
 using namespace std;
 
-#define Dt 1
+#define Dt 100
 
 static long int iterations=-1;
 static int planet_no=0;
@@ -73,7 +73,7 @@ void simulate(){
 
 void parallel_simulate(){
     for(int iteration=0; iteration<iterations; iteration++){
-        BHtree *q = new BHtree(new Boundary(Point(-1*space_size,-1*space_size), Point(space_size, space_size)), planets); 
+        BHtree *q = new BHtree(new Boundary(Point(-1*space_size-1,-1*space_size-1), Point(space_size+1, space_size+1)), planets); 
         //parallel
         tbb::parallel_for(
             tbb::blocked_range<size_t>(0,planets.size()),
