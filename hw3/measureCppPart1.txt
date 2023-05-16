@@ -1,0 +1,1185 @@
+
+
+###########################################Threads:1 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+0.05user 0.00system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 4800maxresident)k
+0inputs+8outputs (0major+265minor)pagefaults 0swaps
+
+Measurement 2
+0.06user 0.00system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 4852maxresident)k
+0inputs+8outputs (0major+265minor)pagefaults 0swaps
+
+Measurement 3
+0.06user 0.00system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 4852maxresident)k
+0inputs+8outputs (0major+265minor)pagefaults 0swaps
+
+Measurement 4
+0.05user 0.00system 0:00.06elapsed 98%CPU (0avgtext+0avgdata 4852maxresident)k
+0inputs+8outputs (0major+262minor)pagefaults 0swaps
+
+Measurement 5
+0.06user 0.00system 0:00.06elapsed 100%CPU (0avgtext+0avgdata 4784maxresident)k
+0inputs+8outputs (0major+263minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+0.15user 0.00system 0:00.08elapsed 196%CPU (0avgtext+0avgdata 4808maxresident)k
+0inputs+8outputs (0major+273minor)pagefaults 0swaps
+
+Measurement 2
+0.15user 0.00system 0:00.08elapsed 195%CPU (0avgtext+0avgdata 4864maxresident)k
+0inputs+8outputs (0major+273minor)pagefaults 0swaps
+
+Measurement 3
+0.15user 0.00system 0:00.08elapsed 197%CPU (0avgtext+0avgdata 4876maxresident)k
+0inputs+8outputs (0major+274minor)pagefaults 0swaps
+
+Measurement 4
+0.15user 0.01system 0:00.08elapsed 196%CPU (0avgtext+0avgdata 4824maxresident)k
+0inputs+8outputs (0major+273minor)pagefaults 0swaps
+
+Measurement 5
+0.08user 0.05system 0:00.07elapsed 195%CPU (0avgtext+0avgdata 4896maxresident)k
+0inputs+8outputs (0major+273minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+0.28user 0.03system 0:00.08elapsed 379%CPU (0avgtext+0avgdata 5072maxresident)k
+0inputs+8outputs (0major+296minor)pagefaults 0swaps
+
+Measurement 2
+0.23user 0.07system 0:00.08elapsed 365%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+8outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 3
+0.28user 0.03system 0:00.09elapsed 343%CPU (0avgtext+0avgdata 5064maxresident)k
+0inputs+8outputs (0major+296minor)pagefaults 0swaps
+
+Measurement 4
+0.29user 0.02system 0:00.08elapsed 384%CPU (0avgtext+0avgdata 5124maxresident)k
+0inputs+8outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 5
+0.26user 0.02system 0:00.08elapsed 336%CPU (0avgtext+0avgdata 4988maxresident)k
+0inputs+8outputs (0major+293minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+0.63user 0.00system 0:00.64elapsed 100%CPU (0avgtext+0avgdata 4844maxresident)k
+0inputs+8outputs (0major+261minor)pagefaults 0swaps
+
+Measurement 2
+0.58user 0.00system 0:00.59elapsed 99%CPU (0avgtext+0avgdata 4844maxresident)k
+0inputs+8outputs (0major+261minor)pagefaults 0swaps
+
+Measurement 3
+0.59user 0.00system 0:00.60elapsed 100%CPU (0avgtext+0avgdata 4888maxresident)k
+0inputs+8outputs (0major+269minor)pagefaults 0swaps
+
+Measurement 4
+0.62user 0.00system 0:00.62elapsed 100%CPU (0avgtext+0avgdata 4768maxresident)k
+0inputs+8outputs (0major+260minor)pagefaults 0swaps
+
+Measurement 5
+0.68user 0.00system 0:00.68elapsed 100%CPU (0avgtext+0avgdata 4788maxresident)k
+0inputs+8outputs (0major+261minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+1.46user 0.04system 0:00.75elapsed 199%CPU (0avgtext+0avgdata 4872maxresident)k
+0inputs+8outputs (0major+274minor)pagefaults 0swaps
+
+Measurement 2
+1.45user 0.10system 0:00.81elapsed 192%CPU (0avgtext+0avgdata 4824maxresident)k
+0inputs+8outputs (0major+272minor)pagefaults 0swaps
+
+Measurement 3
+1.27user 0.05system 0:00.66elapsed 198%CPU (0avgtext+0avgdata 4848maxresident)k
+0inputs+8outputs (0major+272minor)pagefaults 0swaps
+
+Measurement 4
+1.57user 0.07system 0:00.84elapsed 195%CPU (0avgtext+0avgdata 4852maxresident)k
+0inputs+8outputs (0major+274minor)pagefaults 0swaps
+
+Measurement 5
+1.06user 0.12system 0:00.62elapsed 191%CPU (0avgtext+0avgdata 4804maxresident)k
+0inputs+8outputs (0major+273minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input1.txt###########################################
+
+
+Measurement 1
+2.34user 0.39system 0:00.84elapsed 324%CPU (0avgtext+0avgdata 5016maxresident)k
+0inputs+8outputs (0major+293minor)pagefaults 0swaps
+
+Measurement 2
+2.87user 0.32system 0:00.83elapsed 384%CPU (0avgtext+0avgdata 4952maxresident)k
+0inputs+8outputs (0major+292minor)pagefaults 0swaps
+
+Measurement 3
+2.88user 0.30system 0:00.80elapsed 397%CPU (0avgtext+0avgdata 4900maxresident)k
+0inputs+8outputs (0major+291minor)pagefaults 0swaps
+
+Measurement 4
+2.87user 0.39system 0:00.82elapsed 396%CPU (0avgtext+0avgdata 5056maxresident)k
+0inputs+8outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 5
+2.54user 0.57system 0:00.80elapsed 385%CPU (0avgtext+0avgdata 5132maxresident)k
+0inputs+8outputs (0major+296minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+3.81user 0.02system 0:03.84elapsed 99%CPU (0avgtext+0avgdata 4904maxresident)k
+0inputs+16outputs (0major+289minor)pagefaults 0swaps
+
+Measurement 2
+3.86user 0.00system 0:03.87elapsed 99%CPU (0avgtext+0avgdata 4916maxresident)k
+0inputs+16outputs (0major+292minor)pagefaults 0swaps
+
+Measurement 3
+4.13user 0.00system 0:04.13elapsed 100%CPU (0avgtext+0avgdata 5224maxresident)k
+0inputs+16outputs (0major+321minor)pagefaults 0swaps
+
+Measurement 4
+3.94user 0.00system 0:03.95elapsed 99%CPU (0avgtext+0avgdata 4952maxresident)k
+0inputs+16outputs (0major+290minor)pagefaults 0swaps
+
+Measurement 5
+3.94user 0.00system 0:03.94elapsed 100%CPU (0avgtext+0avgdata 4884maxresident)k
+0inputs+16outputs (0major+291minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+3.38user 1.42system 0:02.76elapsed 173%CPU (0avgtext+0avgdata 4916maxresident)k
+0inputs+16outputs (0major+302minor)pagefaults 0swaps
+
+Measurement 2
+4.39user 0.13system 0:02.58elapsed 175%CPU (0avgtext+0avgdata 4920maxresident)k
+0inputs+16outputs (0major+303minor)pagefaults 0swaps
+
+Measurement 3
+4.22user 0.13system 0:02.45elapsed 177%CPU (0avgtext+0avgdata 4984maxresident)k
+0inputs+16outputs (0major+301minor)pagefaults 0swaps
+
+Measurement 4
+4.40user 0.09system 0:02.58elapsed 174%CPU (0avgtext+0avgdata 4940maxresident)k
+0inputs+16outputs (0major+302minor)pagefaults 0swaps
+
+Measurement 5
+4.77user 0.02system 0:02.79elapsed 171%CPU (0avgtext+0avgdata 4988maxresident)k
+0inputs+16outputs (0major+302minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+5.54user 0.36system 0:02.17elapsed 271%CPU (0avgtext+0avgdata 5084maxresident)k
+0inputs+16outputs (0major+323minor)pagefaults 0swaps
+
+Measurement 2
+5.32user 0.59system 0:02.12elapsed 278%CPU (0avgtext+0avgdata 5232maxresident)k
+0inputs+16outputs (0major+324minor)pagefaults 0swaps
+
+Measurement 3
+4.44user 1.41system 0:02.13elapsed 274%CPU (0avgtext+0avgdata 5260maxresident)k
+0inputs+16outputs (0major+325minor)pagefaults 0swaps
+
+Measurement 4
+4.07user 1.68system 0:02.09elapsed 275%CPU (0avgtext+0avgdata 5068maxresident)k
+0inputs+16outputs (0major+323minor)pagefaults 0swaps
+
+Measurement 5
+4.25user 1.62system 0:02.14elapsed 274%CPU (0avgtext+0avgdata 5196maxresident)k
+0inputs+16outputs (0major+324minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+37.28user 0.01system 0:37.30elapsed 99%CPU (0avgtext+0avgdata 4976maxresident)k
+0inputs+16outputs (0major+291minor)pagefaults 0swaps
+
+Measurement 2
+37.66user 0.00system 0:37.66elapsed 99%CPU (0avgtext+0avgdata 4960maxresident)k
+0inputs+16outputs (0major+292minor)pagefaults 0swaps
+
+Measurement 3
+37.24user 0.01system 0:37.26elapsed 99%CPU (0avgtext+0avgdata 4976maxresident)k
+0inputs+16outputs (0major+291minor)pagefaults 0swaps
+
+Measurement 4
+37.34user 0.01system 0:37.36elapsed 99%CPU (0avgtext+0avgdata 4916maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 5
+37.16user 0.00system 0:37.17elapsed 99%CPU (0avgtext+0avgdata 4972maxresident)k
+0inputs+16outputs (0major+291minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+44.02user 1.31system 0:25.74elapsed 176%CPU (0avgtext+0avgdata 4996maxresident)k
+0inputs+16outputs (0major+305minor)pagefaults 0swaps
+
+Measurement 2
+45.81user 0.89system 0:27.08elapsed 172%CPU (0avgtext+0avgdata 4944maxresident)k
+0inputs+16outputs (0major+303minor)pagefaults 0swaps
+
+Measurement 3
+45.21user 0.66system 0:26.41elapsed 173%CPU (0avgtext+0avgdata 4944maxresident)k
+0inputs+16outputs (0major+302minor)pagefaults 0swaps
+
+Measurement 4
+28.26user 15.03system 0:24.33elapsed 177%CPU (0avgtext+0avgdata 5008maxresident)k
+0inputs+16outputs (0major+303minor)pagefaults 0swaps
+
+Measurement 5
+17.06user 25.97system 0:24.13elapsed 178%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+16outputs (0major+303minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input2.txt###########################################
+
+
+Measurement 1
+44.43user 14.10system 0:21.00elapsed 278%CPU (0avgtext+0avgdata 5140maxresident)k
+0inputs+16outputs (0major+325minor)pagefaults 0swaps
+
+Measurement 2
+55.42user 4.35system 0:21.37elapsed 279%CPU (0avgtext+0avgdata 5136maxresident)k
+0inputs+16outputs (0major+324minor)pagefaults 0swaps
+
+Measurement 3
+55.45user 3.75system 0:21.15elapsed 279%CPU (0avgtext+0avgdata 5020maxresident)k
+0inputs+16outputs (0major+322minor)pagefaults 0swaps
+
+Measurement 4
+55.49user 3.81system 0:21.56elapsed 275%CPU (0avgtext+0avgdata 5140maxresident)k
+0inputs+16outputs (0major+325minor)pagefaults 0swaps
+
+Measurement 5
+54.29user 5.24system 0:21.31elapsed 279%CPU (0avgtext+0avgdata 5180maxresident)k
+0inputs+16outputs (0major+326minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.95user 0.00system 0:02.96elapsed 99%CPU (0avgtext+0avgdata 4876maxresident)k
+0inputs+16outputs (0major+283minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.05user 0.01system 0:03.06elapsed 99%CPU (0avgtext+0avgdata 4924maxresident)k
+0inputs+16outputs (0major+280minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.91user 0.01system 0:02.93elapsed 99%CPU (0avgtext+0avgdata 4892maxresident)k
+0inputs+24outputs (0major+284minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.94user 0.02system 0:02.96elapsed 99%CPU (0avgtext+0avgdata 4876maxresident)k
+0inputs+16outputs (0major+287minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.93user 0.00system 0:02.94elapsed 99%CPU (0avgtext+0avgdata 4872maxresident)k
+0inputs+16outputs (0major+285minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.47user 0.08system 0:01.95elapsed 182%CPU (0avgtext+0avgdata 4908maxresident)k
+0inputs+16outputs (0major+293minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.58user 0.12system 0:02.04elapsed 182%CPU (0avgtext+0avgdata 5024maxresident)k
+0inputs+16outputs (0major+297minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.32user 0.11system 0:01.85elapsed 185%CPU (0avgtext+0avgdata 4956maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.53user 0.17system 0:02.05elapsed 180%CPU (0avgtext+0avgdata 4972maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.27user 0.14system 0:01.83elapsed 185%CPU (0avgtext+0avgdata 4892maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.77user 1.07system 0:01.60elapsed 301%CPU (0avgtext+0avgdata 5216maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.14user 0.73system 0:01.62elapsed 299%CPU (0avgtext+0avgdata 4988maxresident)k
+0inputs+16outputs (0major+314minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.55user 0.39system 0:01.67elapsed 296%CPU (0avgtext+0avgdata 4972maxresident)k
+0inputs+16outputs (0major+314minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.80user 0.16system 0:01.67elapsed 296%CPU (0avgtext+0avgdata 5164maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.69user 0.20system 0:01.65elapsed 296%CPU (0avgtext+0avgdata 5096maxresident)k
+0inputs+16outputs (0major+315minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.60user 0.00system 0:29.61elapsed 99%CPU (0avgtext+0avgdata 4836maxresident)k
+0inputs+16outputs (0major+282minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.50user 0.00system 0:29.52elapsed 99%CPU (0avgtext+0avgdata 4944maxresident)k
+0inputs+16outputs (0major+288minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.52user 0.00system 0:29.53elapsed 99%CPU (0avgtext+0avgdata 4852maxresident)k
+0inputs+16outputs (0major+280minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+30.73user 0.00system 0:30.73elapsed 99%CPU (0avgtext+0avgdata 4932maxresident)k
+0inputs+16outputs (0major+283minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.53user 0.00system 0:29.55elapsed 99%CPU (0avgtext+0avgdata 4940maxresident)k
+0inputs+16outputs (0major+284minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+12.75user 21.51system 0:18.42elapsed 185%CPU (0avgtext+0avgdata 4904maxresident)k
+0inputs+16outputs (0major+293minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+7.44user 27.02system 0:18.59elapsed 185%CPU (0avgtext+0avgdata 4980maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+30.91user 6.22system 0:20.52elapsed 180%CPU (0avgtext+0avgdata 4972maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+35.46user 1.10system 0:20.23elapsed 180%CPU (0avgtext+0avgdata 4888maxresident)k
+0inputs+16outputs (0major+293minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+25.85user 11.13system 0:20.76elapsed 178%CPU (0avgtext+0avgdata 4892maxresident)k
+0inputs+16outputs (0major+293minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+41.98user 7.13system 0:17.62elapsed 278%CPU (0avgtext+0avgdata 5144maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+41.55user 7.91system 0:16.40elapsed 301%CPU (0avgtext+0avgdata 5008maxresident)k
+0inputs+16outputs (0major+313minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+47.32user 2.56system 0:16.43elapsed 303%CPU (0avgtext+0avgdata 5096maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+48.07user 1.73system 0:16.33elapsed 304%CPU (0avgtext+0avgdata 5040maxresident)k
+0inputs+16outputs (0major+315minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+45.46user 4.38system 0:16.44elapsed 303%CPU (0avgtext+0avgdata 5168maxresident)k
+0inputs+16outputs (0major+318minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.97user 0.00system 0:02.97elapsed 100%CPU (0avgtext+0avgdata 5000maxresident)k
+0inputs+16outputs (0major+296minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.94user 0.00system 0:02.94elapsed 100%CPU (0avgtext+0avgdata 4936maxresident)k
+0inputs+16outputs (0major+282minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.94user 0.00system 0:02.95elapsed 99%CPU (0avgtext+0avgdata 4856maxresident)k
+0inputs+16outputs (0major+282minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.92user 0.00system 0:02.93elapsed 99%CPU (0avgtext+0avgdata 4840maxresident)k
+0inputs+24outputs (0major+280minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.93user 0.01system 0:02.95elapsed 99%CPU (0avgtext+0avgdata 4868maxresident)k
+0inputs+16outputs (0major+282minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+2.78user 0.91system 0:02.04elapsed 180%CPU (0avgtext+0avgdata 4960maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.49user 0.18system 0:02.03elapsed 180%CPU (0avgtext+0avgdata 4972maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.58user 0.12system 0:02.06elapsed 179%CPU (0avgtext+0avgdata 4960maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.49user 0.11system 0:01.98elapsed 181%CPU (0avgtext+0avgdata 4908maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+3.70user 0.08system 0:02.13elapsed 177%CPU (0avgtext+0avgdata 4908maxresident)k
+0inputs+24outputs (0major+293minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.47user 0.47system 0:01.63elapsed 301%CPU (0avgtext+0avgdata 5168maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.67user 0.29system 0:01.66elapsed 298%CPU (0avgtext+0avgdata 5032maxresident)k
+0inputs+16outputs (0major+316minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.72user 0.22system 0:01.64elapsed 301%CPU (0avgtext+0avgdata 4980maxresident)k
+0inputs+16outputs (0major+312minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.69user 0.31system 0:01.66elapsed 301%CPU (0avgtext+0avgdata 5048maxresident)k
+0inputs+16outputs (0major+314minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+4.67user 0.30system 0:01.67elapsed 297%CPU (0avgtext+0avgdata 5168maxresident)k
+0inputs+16outputs (0major+316minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.49user 0.00system 0:29.50elapsed 99%CPU (0avgtext+0avgdata 4872maxresident)k
+0inputs+24outputs (0major+281minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.46user 0.03system 0:29.50elapsed 99%CPU (0avgtext+0avgdata 4952maxresident)k
+0inputs+16outputs (0major+285minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.39user 0.01system 0:29.41elapsed 99%CPU (0avgtext+0avgdata 4884maxresident)k
+0inputs+16outputs (0major+284minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+29.40user 0.06system 0:29.46elapsed 99%CPU (0avgtext+0avgdata 4920maxresident)k
+0inputs+16outputs (0major+282minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+30.28user 0.01system 0:30.29elapsed 99%CPU (0avgtext+0avgdata 4956maxresident)k
+0inputs+16outputs (0major+290minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+16.54user 19.62system 0:20.14elapsed 179%CPU (0avgtext+0avgdata 4944maxresident)k
+0inputs+16outputs (0major+294minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+36.11user 0.95system 0:20.37elapsed 181%CPU (0avgtext+0avgdata 4908maxresident)k
+0inputs+24outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+35.13user 1.36system 0:20.00elapsed 182%CPU (0avgtext+0avgdata 4908maxresident)k
+0inputs+16outputs (0major+293minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+36.03user 1.24system 0:20.36elapsed 183%CPU (0avgtext+0avgdata 4952maxresident)k
+0inputs+16outputs (0major+295minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+34.09user 1.43system 0:19.25elapsed 184%CPU (0avgtext+0avgdata 4964maxresident)k
+0inputs+16outputs (0major+296minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input3.txt###########################################
+
+
+Measurement 1
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+45.75user 3.96system 0:16.39elapsed 303%CPU (0avgtext+0avgdata 5168maxresident)k
+0inputs+16outputs (0major+316minor)pagefaults 0swaps
+
+Measurement 2
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+45.73user 4.02system 0:16.43elapsed 302%CPU (0avgtext+0avgdata 5024maxresident)k
+0inputs+16outputs (0major+314minor)pagefaults 0swaps
+
+Measurement 3
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+46.86user 3.10system 0:16.53elapsed 302%CPU (0avgtext+0avgdata 5216maxresident)k
+0inputs+24outputs (0major+318minor)pagefaults 0swaps
+
+Measurement 4
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+45.76user 4.22system 0:16.48elapsed 303%CPU (0avgtext+0avgdata 5156maxresident)k
+0inputs+16outputs (0major+317minor)pagefaults 0swaps
+
+Measurement 5
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(5000000000.000000, 0.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+Error: Cannot insert planet that is outside of the space that is examined
+	Point(-0.000003, 5000000000.000000)
+	Boundary: Top Left Point: Point(-5000000000.000000, -5000000000.000000) || Bottom Right Point: Point(5000000000.000000, 5000000000.000000)
+47.53user 3.20system 0:16.85elapsed 301%CPU (0avgtext+0avgdata 4992maxresident)k
+0inputs+16outputs (0major+314minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+51.83user 0.06system 0:51.90elapsed 99%CPU (0avgtext+0avgdata 5836maxresident)k
+120inputs+112outputs (0major+511minor)pagefaults 0swaps
+
+Measurement 2
+52.13user 0.01system 0:52.16elapsed 99%CPU (0avgtext+0avgdata 5772maxresident)k
+0inputs+112outputs (0major+512minor)pagefaults 0swaps
+
+Measurement 3
+54.21user 0.00system 0:54.22elapsed 99%CPU (0avgtext+0avgdata 5768maxresident)k
+0inputs+112outputs (0major+512minor)pagefaults 0swaps
+
+Measurement 4
+52.80user 0.05system 0:52.86elapsed 99%CPU (0avgtext+0avgdata 5760maxresident)k
+0inputs+112outputs (0major+510minor)pagefaults 0swaps
+
+Measurement 5
+51.64user 0.02system 0:51.68elapsed 99%CPU (0avgtext+0avgdata 5824maxresident)k
+0inputs+112outputs (0major+509minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+54.90user 0.49system 0:32.28elapsed 171%CPU (0avgtext+0avgdata 5796maxresident)k
+0inputs+112outputs (0major+518minor)pagefaults 0swaps
+
+Measurement 2
+38.11user 15.03system 0:31.03elapsed 171%CPU (0avgtext+0avgdata 5776maxresident)k
+0inputs+112outputs (0major+519minor)pagefaults 0swaps
+
+Measurement 3
+56.14user 1.44system 0:33.95elapsed 169%CPU (0avgtext+0avgdata 5792maxresident)k
+0inputs+112outputs (0major+521minor)pagefaults 0swaps
+
+Measurement 4
+53.12user 0.41system 0:30.98elapsed 172%CPU (0avgtext+0avgdata 5788maxresident)k
+0inputs+112outputs (0major+520minor)pagefaults 0swaps
+
+Measurement 5
+56.26user 0.18system 0:33.60elapsed 167%CPU (0avgtext+0avgdata 5788maxresident)k
+0inputs+112outputs (0major+519minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+56.91user 4.40system 0:24.06elapsed 254%CPU (0avgtext+0avgdata 6064maxresident)k
+0inputs+112outputs (0major+546minor)pagefaults 0swaps
+
+Measurement 2
+36.78user 23.06system 0:22.75elapsed 263%CPU (0avgtext+0avgdata 6128maxresident)k
+0inputs+112outputs (0major+542minor)pagefaults 0swaps
+
+Measurement 3
+32.61user 27.40system 0:22.83elapsed 262%CPU (0avgtext+0avgdata 5940maxresident)k
+0inputs+112outputs (0major+542minor)pagefaults 0swaps
+
+Measurement 4
+55.79user 3.78system 0:22.63elapsed 263%CPU (0avgtext+0avgdata 5932maxresident)k
+0inputs+112outputs (0major+538minor)pagefaults 0swaps
+
+Measurement 5
+56.64user 2.75system 0:22.76elapsed 260%CPU (0avgtext+0avgdata 6112maxresident)k
+0inputs+112outputs (0major+542minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+549.30user 0.24system 9:09.58elapsed 99%CPU (0avgtext+0avgdata 5792maxresident)k
+0inputs+120outputs (0major+512minor)pagefaults 0swaps
+
+Measurement 2
+544.06user 0.03system 9:04.14elapsed 99%CPU (0avgtext+0avgdata 5760maxresident)k
+0inputs+120outputs (0major+511minor)pagefaults 0swaps
+
+Measurement 3
+546.38user 0.09system 9:06.53elapsed 99%CPU (0avgtext+0avgdata 5808maxresident)k
+0inputs+120outputs (0major+510minor)pagefaults 0swaps
+
+Measurement 4
+546.60user 0.06system 9:06.72elapsed 99%CPU (0avgtext+0avgdata 5804maxresident)k
+0inputs+120outputs (0major+517minor)pagefaults 0swaps
+
+Measurement 5
+547.46user 0.10system 9:07.64elapsed 99%CPU (0avgtext+0avgdata 5764maxresident)k
+0inputs+120outputs (0major+510minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+577.32user 3.02system 5:35.72elapsed 172%CPU (0avgtext+0avgdata 5828maxresident)k
+0inputs+120outputs (0major+518minor)pagefaults 0swaps
+
+Measurement 2
+580.28user 5.97system 5:40.47elapsed 172%CPU (0avgtext+0avgdata 5852maxresident)k
+0inputs+120outputs (0major+519minor)pagefaults 0swaps
+
+Measurement 3
+583.03user 9.32system 5:45.22elapsed 171%CPU (0avgtext+0avgdata 5852maxresident)k
+0inputs+120outputs (0major+518minor)pagefaults 0swaps
+
+Measurement 4
+580.60user 6.43system 5:41.18elapsed 172%CPU (0avgtext+0avgdata 5976maxresident)k
+0inputs+120outputs (0major+521minor)pagefaults 0swaps
+
+Measurement 5
+583.74user 8.95system 5:45.53elapsed 171%CPU (0avgtext+0avgdata 5840maxresident)k
+0inputs+120outputs (0major+520minor)pagefaults 0swaps
+
+
+###########################################Threads:4 50000 InputTests/input4.txt###########################################
+
+
+Measurement 1
+526.53user 108.39system 4:00.30elapsed 264%CPU (0avgtext+0avgdata 6116maxresident)k
+0inputs+120outputs (0major+544minor)pagefaults 0swaps
+
+Measurement 2
+344.57user 281.98system 3:54.22elapsed 267%CPU (0avgtext+0avgdata 6136maxresident)k
+0inputs+120outputs (0major+544minor)pagefaults 0swaps
+
+Measurement 3
+399.19user 231.96system 3:55.95elapsed 267%CPU (0avgtext+0avgdata 6112maxresident)k
+0inputs+120outputs (0major+545minor)pagefaults 0swaps
+
+Measurement 4
+617.01user 28.28system 4:04.98elapsed 263%CPU (0avgtext+0avgdata 6116maxresident)k
+0inputs+120outputs (0major+544minor)pagefaults 0swaps
+
+Measurement 5
+347.03user 282.87system 3:55.72elapsed 267%CPU (0avgtext+0avgdata 6044maxresident)k
+0inputs+120outputs (0major+544minor)pagefaults 0swaps
+
+
+###########################################Threads:1 5000 InputTests/input5.txt###########################################
+
+
+Measurement 1
+96.40user 0.03system 1:36.45elapsed 99%CPU (0avgtext+0avgdata 5604maxresident)k
+0inputs+104outputs (0major+454minor)pagefaults 0swaps
+
+Measurement 2
+97.42user 0.08system 1:37.51elapsed 99%CPU (0avgtext+0avgdata 5548maxresident)k
+0inputs+104outputs (0major+454minor)pagefaults 0swaps
+
+Measurement 3
+97.69user 0.01system 1:37.72elapsed 99%CPU (0avgtext+0avgdata 5620maxresident)k
+0inputs+104outputs (0major+453minor)pagefaults 0swaps
+
+Measurement 4
+101.09user 0.00system 1:41.11elapsed 99%CPU (0avgtext+0avgdata 5620maxresident)k
+0inputs+104outputs (0major+453minor)pagefaults 0swaps
+
+Measurement 5
+96.42user 0.03system 1:36.47elapsed 99%CPU (0avgtext+0avgdata 5628maxresident)k
+0inputs+104outputs (0major+454minor)pagefaults 0swaps
+
+
+###########################################Threads:2 5000 InputTests/input5.txt###########################################
+
+
+Measurement 1
+99.45user 1.58system 0:55.12elapsed 183%CPU (0avgtext+0avgdata 5564maxresident)k
+0inputs+104outputs (0major+462minor)pagefaults 0swaps
+
+Measurement 2
+96.52user 2.02system 0:53.48elapsed 184%CPU (0avgtext+0avgdata 5584maxresident)k
+0inputs+104outputs (0major+464minor)pagefaults 0swaps
+
+Measurement 3
+73.57user 21.00system 0:51.55elapsed 183%CPU (0avgtext+0avgdata 5580maxresident)k
+0inputs+104outputs (0major+462minor)pagefaults 0swaps
+
+Measurement 4
+93.92user 1.92system 0:51.81elapsed 184%CPU (0avgtext+0avgdata 5556maxresident)k
+0inputs+104outputs (0major+462minor)pagefaults 0swaps
+
+Measurement 5
+101.45user 1.31system 0:55.85elapsed 184%CPU (0avgtext+0avgdata 5580maxresident)k
+0inputs+104outputs (0major+463minor)pagefaults 0swaps
+
+
+###########################################Threads:4 5000 InputTests/input5.txt###########################################
+
+
+Measurement 1
+98.38user 5.54system 0:32.98elapsed 315%CPU (0avgtext+0avgdata 5764maxresident)k
+0inputs+104outputs (0major+485minor)pagefaults 0swaps
+
+Measurement 2
+100.25user 3.74system 0:33.45elapsed 310%CPU (0avgtext+0avgdata 5636maxresident)k
+0inputs+104outputs (0major+482minor)pagefaults 0swaps
+
+Measurement 3
+69.55user 33.48system 0:32.72elapsed 314%CPU (0avgtext+0avgdata 5892maxresident)k
+0inputs+104outputs (0major+487minor)pagefaults 0swaps
+
+Measurement 4
+99.90user 3.83system 0:32.98elapsed 314%CPU (0avgtext+0avgdata 5824maxresident)k
+0inputs+104outputs (0major+488minor)pagefaults 0swaps
+
+Measurement 5
+70.34user 32.32system 0:32.68elapsed 314%CPU (0avgtext+0avgdata 5860maxresident)k
+0inputs+104outputs (0major+496minor)pagefaults 0swaps
+
+
+###########################################Threads:1 50000 InputTests/input5.txt###########################################
+
+
+Measurement 1
+971.61user 0.27system 16:12.05elapsed 99%CPU (0avgtext+0avgdata 5568maxresident)k
+0inputs+104outputs (0major+456minor)pagefaults 0swaps
+
+Measurement 2
+1009.67user 0.03system 16:49.83elapsed 99%CPU (0avgtext+0avgdata 5536maxresident)k
+0inputs+104outputs (0major+455minor)pagefaults 0swaps
+
+Measurement 3
+964.93user 0.03system 16:05.18elapsed 99%CPU (0avgtext+0avgdata 5620maxresident)k
+0inputs+104outputs (0major+453minor)pagefaults 0swaps
+
+Measurement 4
+1008.34user 0.06system 16:48.49elapsed 99%CPU (0avgtext+0avgdata 5544maxresident)k
+0inputs+104outputs (0major+456minor)pagefaults 0swaps
+
+Measurement 5
+974.98user 0.24system 16:15.35elapsed 99%CPU (0avgtext+0avgdata 5596maxresident)k
+0inputs+104outputs (0major+455minor)pagefaults 0swaps
+
+
+###########################################Threads:2 50000 InputTests/input5.txt###########################################
+
+
+Measurement 1
+Command terminated by signal 2
+127.88user 1.63system 1:10.53elapsed 183%CPU (0avgtext+0avgdata 5424maxresident)k
+0inputs+0outputs (0major+452minor)pagefaults 0swaps
